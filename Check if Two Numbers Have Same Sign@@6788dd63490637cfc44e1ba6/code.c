@@ -8,7 +8,7 @@ int main() {
     else if (a<0 && b<0){
         printf("Same Sign");
     }
-    else if(a==0=0 && b==0){
+    else if(a==0 && b==0){
         printf("Same Sign");
     }
     else{
