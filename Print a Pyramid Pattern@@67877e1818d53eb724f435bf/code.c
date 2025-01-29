@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n=5;
+  //  int n=5;
     scanf("%d",&n);
     for(int i=1 ; i<=6 ; i++)
     {
