@@ -1,14 +1,16 @@
 #include <stdio.h>
-#include <limits.h>
+//#include <limits.h>
 int main() {
     int n;
-    int max=INT_MIN:
-    int min=INT_MAX;
+    //int max=INT_MIN:
+  //  int min=INT_MAX;
     scanf("%d",&n);
     int arr[n];
     for(int i=0 ; i<n ; i++){
         scanf("%d",&arr[i]);
     }
+    int max=arr[0];
+    int min=arr[0];
     for(int i=0 ; i<n ; i++){
         if(min>arr[i]){
             min=arr[i];
