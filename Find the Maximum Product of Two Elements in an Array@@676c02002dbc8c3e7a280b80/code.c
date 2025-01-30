@@ -9,9 +9,11 @@ int main() {
     int p;
     int max=0;
     for(int i=0 ; i<n ; i++){
-        p=arr[i]*arr[i+1];
+        for(int j=i+1; j<n ; j++){
+        p=arr[i]*arr[j];
         if(max<p){
             max=p;
+        }
         }
     }
     printf("%d",max);
