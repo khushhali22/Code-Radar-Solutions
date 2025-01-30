@@ -18,6 +18,10 @@ int main() {
             min=arr[i];
         }
     }
-    printf("%d",smin);
+    if(min==smin){
+    printf("%d",smin);}
+    else{
+        printf("-1");
+    }
     return 0;
 }
