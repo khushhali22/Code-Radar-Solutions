@@ -8,6 +8,6 @@ int main() {
     scanf("%s",y);
     scanf("%s",z);
     scanf("%s",q);
-    printf("%s%s",x,y);
+    printf("%s%s%s%s",x,y,z,q);
     return 0;
 }
