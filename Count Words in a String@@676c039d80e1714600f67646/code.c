@@ -4,7 +4,7 @@ int main() {
     int c=0,i=0;
     fgets(x,sizeof(x),stdin);
     while(x[i]!='\0'){
-        if((x[i]==' ' || x[i]=='\0') && x[i+1]!=' ' && x[i+1]!='\0'){
+        if((x[i]==' ' || x[i]=='\0')){
             c++;
         }
         i++;
