@@ -8,7 +8,7 @@ int main() {
     while(x[i]!='\0'){
         n++;
     }
-    for(int i=0 ; i<n ;i++){
+    for(i=0 ; i<n ;i++){
         for(int j=0 ; j<10 ; j++){
             if(x[i]==vowel[j]){
                 c++;
