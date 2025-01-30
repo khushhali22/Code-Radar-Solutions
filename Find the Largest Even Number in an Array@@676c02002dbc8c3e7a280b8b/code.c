@@ -16,6 +16,6 @@ int main() {
             }
         }
     }
-    printf("%d",even);
+    printf("%d",max);
     return 0;
 }
