@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    char x[100];
-    int c=0;
+    char x[1000];
+    int c=0,i=0;
     fgets(x,sizeof(x),stdin);
     while(x[i]!='\0'){
         if((x[i]==' ' || x[i]=='\n') && x[i+1]!=' ' && x[i+1]!='\0'){
