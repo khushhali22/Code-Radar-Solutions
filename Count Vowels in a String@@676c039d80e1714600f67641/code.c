@@ -4,7 +4,7 @@ int main() {
     char x[100];
     scanf("%s",x);
     char vowel[10]="AEIOUaeiou";
-    int n=0,i;
+    int n=0,i=0;
     while(x[i]!='\0'){
         n++;
     }
