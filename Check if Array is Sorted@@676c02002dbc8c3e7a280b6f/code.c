@@ -8,9 +8,14 @@ int main() {
         scanf("%d",&arr[i]);
     }
     for(int i=1 ; i<n ; i++){
-        arr[i]<=arr[i-1];
+        if(arr[i]==arr[i-1]){
+            f=1;
+        }
+        else{
+        arr[i]<arr[i-1];
         f=0;
         break;
+        }
     }
     if(f==0){
         printf("Not Sorted");
