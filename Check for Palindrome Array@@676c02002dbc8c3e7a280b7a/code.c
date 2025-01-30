@@ -3,12 +3,15 @@ int main() {
    int n;
    int f=1;
    scanf("%d",&n);
-   int arr[n];
-   for(int i=0 ; i<n/2 ;i++){
-      if(arr[i]!=arr[n-i-1]){
-               f=0;
-               break;
-      }
+   int arr[n],temp[n];
+   for(int i=0 ; i<n ;i++){
+      temp[i]=arr[n-i-1]
+   }
+   for(int i=0 ; i<n ;i++){
+    if(temp[i]==!arr[i]){
+        f=0;
+        break;
+    }
    }
    if(f==1){
     printf("YES");
