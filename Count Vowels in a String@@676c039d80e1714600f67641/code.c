@@ -3,7 +3,7 @@ int main() {
     int c=0;
     char x[100];
     scanf("%s",x);
-    char vowel[10]"AEIOUaeiou";
+    char vowel[10]="AEIOUaeiou";
     int n=0,i;
     while(i!='\0'){
         n++;
