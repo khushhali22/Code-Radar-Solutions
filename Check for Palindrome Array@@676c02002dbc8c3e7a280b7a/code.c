@@ -4,6 +4,9 @@ int main() {
    int f=1;
    scanf("%d",&n);
    int arr[n],temp[n];
+   for(int i=0 ;i<n ; i++){
+    scanf("%d",&arr[i]);
+   }
    for(int i=0 ; i<n ;i++){
       temp[i]=arr[n-i-1]
    }
