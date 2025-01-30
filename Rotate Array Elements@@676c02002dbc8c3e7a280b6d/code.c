@@ -13,10 +13,10 @@ int main() {
           temp[i]=arr[n-k+1];
     }
     for(int i=0 ; i<k ;i++){
-        printf("%d ",temp[i]);
+        printf("%d\n",temp[i]);
     }
     for(int i=0 ; i<n-k ; i++){
-        printf("%d ",arr[i]);
+        printf("%d\n",arr[i]);
     }
     return 0;
 }
