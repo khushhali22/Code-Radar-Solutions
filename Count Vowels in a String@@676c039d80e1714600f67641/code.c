@@ -4,6 +4,10 @@ int main() {
     char x[100];
     scanf("%s",x);
     char vowel[10]"AEIOUaeiou";
+    int n=0,i;
+    while(i!='\0'){
+        n++;
+    }
     for(int i=0 ; i<n ;i++){
         for(int j=0 ; j<10 ; j++){
             if(x[i]==vowel[j]){
