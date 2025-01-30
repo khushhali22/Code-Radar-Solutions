@@ -13,7 +13,7 @@ int main() {
     int min=arr[0];
     int smin=arr[0];
     for(int i=0 ; i<n ; i++){
-        if(min<arr[i]){
+        if(min>arr[i]){
             smin=min;
             min=arr[i];
         }
