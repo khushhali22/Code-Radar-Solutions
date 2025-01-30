@@ -8,7 +8,7 @@ int main() {
         i++;
     }
     for(int i=0 ; i<n ; i++){
-            printf("%c",x[n-i-1]);
+            printf("%s",x[n-i-1]);
     }
     
     return 0;
