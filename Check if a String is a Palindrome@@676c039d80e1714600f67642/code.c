@@ -4,11 +4,13 @@ int main() {
     char x[100];
     scanf("%s",x);
     int arr[100];
-    for(int i=0 ; i<n ; i++){
-        arr[i]=x[n-i-1];
+    int c=0,i=0;
+    while(x[i]!='\0'){
+        c++;
+        i++;
     }
-    for (int i= ; i<n ;i++){
-        if(arr[i]!=x[i]){
+    for (int i=0; i<c/2 ;i++){
+        if(arr[c-i-1]!=x[i]){
             f=0;
             break;
         }
