@@ -7,6 +7,7 @@ int main() {
     int n=0,i=0;
     while(x[i]!='\0'){
         n++;
+        i++;
     }
     for(i=0 ; i<n ;i++){
         for(int j=0 ; j<10 ; j++){
