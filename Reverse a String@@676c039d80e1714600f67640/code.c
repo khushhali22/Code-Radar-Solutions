@@ -7,7 +7,7 @@ int main() {
         n++;
         i++;
     }
-    for(int i=0 ; i<n ; i++){
+    for(int i=0 ; i<n/2; i++){
             printf("%s",x[n-i-1]);
     }
     
