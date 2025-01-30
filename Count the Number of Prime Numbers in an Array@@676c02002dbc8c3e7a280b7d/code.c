@@ -1,5 +1,5 @@
 #include <stdio.h>
-int isprime(num){
+int isprime(int num){
     if(num<=1){
         return 0;
     }
