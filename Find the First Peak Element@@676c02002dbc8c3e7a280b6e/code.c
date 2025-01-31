@@ -27,24 +27,25 @@ int main()
     {
     if(arr[0]>=arr[i])
     {
-        printf(arr[0]);
+        printf("%d",arr[0]);
         return 0;
     }
     else if(arr[n-1]>=arr[n-2])
     {
-        printf(arr[n-1]);
+        printf("%d",arr[n-1]);
         return 0;
     }
-    else{
-    for(int i=0 ; i<n ; i++)
-    {
-        if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
-        {
-            printf("%d",arr[i]);
-            return 0;
-        }
-    }
-    }
+    // else
+    // {
+    // for(int i=0 ; i<n ; i++)
+    // {
+    //     if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
+    //     {
+    //         printf("%d",arr[i]);
+    //         return 0;
+    //     }
+    // }
+    // }
     }
     }
     return 0;
