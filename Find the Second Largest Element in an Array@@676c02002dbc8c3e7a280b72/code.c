@@ -8,6 +8,7 @@ int main() {
     }
     int max=0;
     int smax=0;
+
     for(int i=0 ;i<n ;i++){
         if(max<arr[i]){
             smax=max;
@@ -20,8 +21,10 @@ int main() {
         //    smax=arr[i];
        // }
     //}
+    if(max==smax){
+        printf("-1");
+    }
     printf("%d",smax);
     return 0;
-    printf("-1");
     return 0;
 }
