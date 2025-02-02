@@ -8,10 +8,10 @@ int main() {
     }
     else{
         int c=0;
-        for(int i=31 ; i>=0 ; i--){
-            if(n&(1<<i)){
-                break;
-                c++;
+        for(int i=31 ; i>0 ; i--){
+        if(n&(1<<i)){
+            break;
+        c++;
             }
         }
         printf("%d",c);
