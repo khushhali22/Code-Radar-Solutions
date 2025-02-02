@@ -11,7 +11,8 @@ int main() {
         for(int i=31 ; i>0 ; i--){
         if(n&(1<<i)){
             break;
-        c++;
+            c++;
+            printf("%d",c);
             }
         }
         printf("%d",c);
