@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    int n,i=0,binary[32];
+    int n,i=0;
+    int binary[32];
     scanf("%d",&n);
     while(n>0){
         binary[i]=n%2;
