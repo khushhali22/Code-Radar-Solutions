@@ -12,7 +12,7 @@ int main() {
         if(n&(1<<i)){
             break;
             c++;
-            printf("%d",c);
+            printf("12");
             }
         }
         printf("%d",c);
