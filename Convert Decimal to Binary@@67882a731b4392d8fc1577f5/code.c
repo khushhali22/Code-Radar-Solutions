@@ -4,6 +4,10 @@ int main() {
     int i=0;
     int binary[32];
     scanf("%d",&n);
+    if(n==0){
+        printf("0");
+        return 0;
+    }
     while(n>0){
         binary[i]=n%2;
         n=n/2;
