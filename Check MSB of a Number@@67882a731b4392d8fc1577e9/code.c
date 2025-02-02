@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    long n;
+    long int n;
     scanf("%ld",&n);
     int size=sizeof(n)*8;
     int y=n>>(size-1);
