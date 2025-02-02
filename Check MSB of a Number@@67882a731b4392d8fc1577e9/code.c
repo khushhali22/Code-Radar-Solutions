@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main() {
-    long a;
-    scanf("%d",&n);
-    if(a | 1){
+    long n;
+    scanf("%ld",&n);
+    int size=sizeof(n)*8;
+    int y=n>>(size-1);
+    if(n&1==1){
         printf("Set");
     }
     else{
