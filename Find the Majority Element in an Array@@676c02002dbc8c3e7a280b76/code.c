@@ -15,9 +15,11 @@ int main() {
         }
         if(f>(n/2)){
             printf("%d",arr[i]);
-            break;
+            return 0;
+        }
+        else{
+            printf("-1");
         }
     }
-    printf("-1");
     return 0;
 }
