@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&n);
     int arr[n];
     for(int i=0 ; i<n ; i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     for(int i=0 ; i<n ; i++){
         int f=0;
@@ -15,6 +15,7 @@ int main() {
         }
         if(f>(n/2)){
             printf("%d",arr[i]);
+            break;
         }
         else{
             printf("-1");
