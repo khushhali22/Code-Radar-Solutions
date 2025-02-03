@@ -36,14 +36,11 @@ int main() {
     {
         if(temp[i]!=0)
         {
-            printf("%d %d",arr[i].temp[i]);
+            printf("%d %d",arr[i],temp[i]);
         }
     }
 
    
-        for(int i=0 ; i<size ; i++)
-        {
-            printf("%d %d",arr[i],temp[i]);
-        }
+        
     return 0;
 }
