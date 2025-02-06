@@ -9,6 +9,7 @@ int main() {
     }
     int r=0,c=0;
     while(arr[1]>0){
+        // int r=0,c=0;
         // int rem=arr[i]%10;
         arr[1]=arr[1]/10;
         c++;
@@ -18,7 +19,7 @@ int main() {
         arr[i]=virtual;
         while(arr[i]>0)
         {
-            int d=n%10;
+            int d=arr[i]%10;
             r=r+pow(d,c)
             arr[i]=arr[i]/10;
         }
