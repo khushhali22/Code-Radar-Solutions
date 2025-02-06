@@ -20,7 +20,7 @@ int main() {
         while(arr[i]>0)
         {
             d=arr[i]%10;
-            r=r+pow(d,c)
+            r=r+pow(d,c);
             arr[i]=arr[i]/10;
         }
         if(r==ve){
