@@ -7,7 +7,7 @@ int main() {
     for(int i=0 ;i<n ; i++){
         scanf("%d",&arr[i]);
     }
-    int r=0,c=0;
+    int d, r=0,c=0;
     while(arr[1]>0){
         // int r=0,c=0;
         // int rem=arr[i]%10;
@@ -19,7 +19,7 @@ int main() {
         arr[i]=virtual;
         while(arr[i]>0)
         {
-            int d=arr[i]%10;
+            d=arr[i]%10;
             r=r+pow(d,c)
             arr[i]=arr[i]/10;
         }
