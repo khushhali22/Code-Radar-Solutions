@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math.h>
 int main() {
     int n,virtualel,cp=0;
     scanf("%d",&n);
@@ -11,9 +12,11 @@ int main() {
         arr[1]=arr[1]/10;
         c++;
     }
-    for(int i=0 ; i<n ; i++){
+    for(int i=0 ; i<n ; i++)
+    {
         arr[i]=virtual;
-        while(arr[i]>0){
+        while(arr[i]>0)
+        {
             int d=n%10;
             r=r+pow(d,c)
             arr[i]=arr[i]/10;
