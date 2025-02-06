@@ -6,8 +6,9 @@ int main() {
     for(int i=0 ; i<n ; i++){
         scanf("%d",&arr[i]);
     }
-    int d,r=0;
+    int d,r;
     for(int i=0 ; i<n ;i++){
+        r=0;
     while(arr[i]>0)
     {   d=arr[i]%10;
         r=r+d;
