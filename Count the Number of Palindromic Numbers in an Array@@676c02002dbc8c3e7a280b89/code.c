@@ -27,7 +27,7 @@ int main() {
             cp++;
         }
     }
-    printf("%d",cp);
+    printf("%d ",cp);
 
     return 0;
 }
