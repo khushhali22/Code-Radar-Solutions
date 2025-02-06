@@ -12,7 +12,7 @@ int main() {
             continue;
            }
            else{
-            for(int j=i+1 ; j<n ; j+){
+            for(int j=i+1 ; j<n ; j++){
                    if(temp[j]==0){
                     continue;
                    }
