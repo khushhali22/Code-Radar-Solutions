@@ -17,9 +17,9 @@ int main() {
                     continue;
                    }
                    else{
-                    arr[i]==temp[j];
+                   if(arr[i]==temp[j]){
                     temp[i]++;
-                    temp[j]=0;
+                    temp[j]=0;}
                    }
             }
            }
