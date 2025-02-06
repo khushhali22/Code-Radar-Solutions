@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n,max=0;
+    int n,s,max=0;
     scanf("%d",&n);
     int arr[n],temp[n];
     for(int i=0 ; i<n ; i++){
@@ -27,8 +27,9 @@ int main() {
     for(int i=0 ; i<n ; i++){
         if(temp[i]!=0 && max<temp[i]){
             max=temp[i];
+            s=arr[i];
         }
     }
-    printf("%d",max);
+    printf("%d",s);
     return 0;
 }
