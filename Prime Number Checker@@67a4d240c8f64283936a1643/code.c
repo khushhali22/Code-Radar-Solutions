@@ -5,7 +5,9 @@
         if(num%2==0)
         {
             int f=0;
+            return 0;
             break;
+            
         }
         else
         {
