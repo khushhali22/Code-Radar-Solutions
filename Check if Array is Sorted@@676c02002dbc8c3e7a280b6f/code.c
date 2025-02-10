@@ -8,11 +8,11 @@ int main() {
         scanf("%d",&arr[i]);
     }
     for(int i=1 ; i<n ; i++){
-        if(arr[i]>=arr[i-1]){
+        if(arr[i]<=arr[i+1]){
             f=1;
         }
         else{
-        arr[i]<arr[i-1];
+        arr[i]>arr[i+1];
         f=0;
         break;
         }
