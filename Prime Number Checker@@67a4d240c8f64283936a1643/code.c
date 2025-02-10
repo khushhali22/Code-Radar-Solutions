@@ -2,11 +2,10 @@
  int isPrime(int num){
     for(int i=2 ;i<n ; i++)
     {
-        if(num%2==0)
+        if(num%i==0)
         {
-            // int f=0;
             return 0;
-            break;
+            // break;
             
         }
         else
