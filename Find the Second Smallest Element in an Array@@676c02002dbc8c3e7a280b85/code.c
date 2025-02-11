@@ -18,8 +18,8 @@ int main() {
             smin=min;
             min=arr[i];
         }
-        if(arr[i]>smax && arr[i]!=max){
-            smax=arr[i];
+        if(arr[i]>smin && arr[i]!=min){
+            smin=arr[i];
         }
     }
     if(min!=smin){
