@@ -25,7 +25,7 @@ int main() {
            }
     }
     for(int i=0 ; i<n ; i++){
-        if(temp[i]!=0 && max<temp[i]){
+        if(max<temp[i]){
             max=temp[i];
             s=arr[i];
         }
