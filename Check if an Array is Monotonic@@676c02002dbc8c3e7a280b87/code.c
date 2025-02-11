@@ -9,9 +9,11 @@ int main() {
     for(int i=1 ;i<n ;i++){
         if(arr[i]<arr[i-1]){
             decreasing=0;
+            break;
         }
         if(arr[i]>arr[i-1]){
             increasing=0;
+            break;
         }
     }
     if(decreasing || increasing){
