@@ -18,12 +18,12 @@ int main() {
             smax=max;
             max=arr[i];
         }
-    }
-    if(max==smax){
-        printf("-1");
-    }
-    else{
+    // }
+    // if(max==smax){
+    //     printf("-1");
+    // }
+    // else{
     printf("%d",smax);
-    }
+    // }
     return 0;
 }
