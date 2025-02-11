@@ -18,6 +18,9 @@ int main() {
             smin=min;
             min=arr[i];
         }
+        if(arr[i]>smax && arr[i]!=max){
+            smax=arr[i];
+        }
     }
     if(min!=smin){
     printf("%d",smin);}
