@@ -22,10 +22,13 @@ int main() {
             smin=arr[i];
         }
     }
-    if(min!=smin){
-    printf("%d",smin);}
+    // if(min!=smin){
+    // printf("%d",smin);}
     if(min==smin || smin==INT_MAX){
         printf("-1");
+    }
+    else{
+        printf("%d",smin);
     }
     return 0;
 }
