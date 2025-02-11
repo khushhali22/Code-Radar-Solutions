@@ -12,9 +12,9 @@ int main() {
         r=0;
         int n=abs(arr[i]);
     while(n>0)
-    {   d=arr[i]%10;
+    {   d=n%10;
         r=r+d;
-        arr[i]=arr[i]/10;
+        n=n/10;
         }
         printf("%d ",r);
 
