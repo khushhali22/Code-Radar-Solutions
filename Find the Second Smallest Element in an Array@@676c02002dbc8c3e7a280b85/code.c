@@ -24,7 +24,7 @@ int main() {
     }
     if(min!=smin){
     printf("%d",smin);}
-    else{
+    if(min==smin || smin==INT_MAX){
         printf("-1");
     }
     return 0;
