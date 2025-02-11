@@ -21,7 +21,7 @@ int main() {
         }
         else if(arr[i] > smax && arr[i] != max) smax = arr[i] ; 
     }
-    if(max==smax || smax == INT_MIN){
+    if(max==smax ){
         printf("-1");
     }
     //  if(smax == INT_MIN){
