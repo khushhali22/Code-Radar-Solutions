@@ -10,11 +10,11 @@ int main() {
     int d,r;
     for(int i=0 ; i<n ;i++){
         r=0;
-        int n=abs(arr[i]);
-    while(n>0)
-    {   d=n%10;
+        int pn=abs(arr[i]);
+    while(pn>0)
+    {   d=pn%10;
         r=r+d;
-        n=n/10;
+        pn=pn/10;
         }
         printf("%d ",r);
 
