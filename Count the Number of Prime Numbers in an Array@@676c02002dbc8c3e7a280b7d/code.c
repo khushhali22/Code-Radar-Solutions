@@ -4,13 +4,16 @@ int isprime(int num){
         return 0;
     }
     else{
-        for(int i=2 ; i<num ; i++){
-            if(num%i==0){
+        for(int i=2 ; i<num ; i++)
+        {
+            if(num%i==0)
+            {
                 return 0;
             }
         }
-        return 1;
+        // return 1;
     }
+    return 1;
 }
 int main() {
     
