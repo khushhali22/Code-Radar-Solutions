@@ -19,12 +19,13 @@ int main() {
             smax=max;
             max=arr[i];
         }
+        else if(arr[i] > smax && arr[i] != max) smax = arr[i] ; 
     }
     if(max==smax){
         printf("-1");
     }
-    else{
-    printf("%d",smax);
+    if(smax == INT_MIN){
+        printf("-1"); 
     }
     return 0;
 }
