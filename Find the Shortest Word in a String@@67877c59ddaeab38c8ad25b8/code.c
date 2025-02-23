@@ -16,12 +16,12 @@ int main(){
         }
         if(min>c){
             min=c;
-        //    int p=j;
+           int p=i;
         }
         i++;
     }
-    // for(int q=0 ; q<p  ; q++){
-        // prinf("%d",p);
-    // }
-    printf("%d",min);
+    for(int q=0 ; q<p  ; q++){
+        prinf("%d",p);
+    }
+    // printf("%d",min);
 }
