@@ -6,10 +6,11 @@ int main() {
     for(int i=0 ;i<n ; i++){
         scanf("%d",&arr[i]);
     }
-    int d,r=0,temp;
+    int d,temp;
     for(int i=0 ; i<n ; i++)
     {
         e=arr[i];
+        int r=0;
         while(arr[i]>0)
         {
             d=arr[i]%10;
