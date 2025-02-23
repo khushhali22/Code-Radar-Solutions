@@ -8,13 +8,14 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int min=INT_MAX;
+    int ele1,ele2
     for(int i=0 ; i<n-1; i++){
         for(int j=i+1 ; j<n ; j++){
               int r=arr[i]-arr[j];
-              if(r>min);
+              if(r<min);
               min=r;
-              int ele1=arr[i];
-              int ele2=arr[j];
+            ele1=arr[i];
+            ele2=arr[j];
         }
 
     }
