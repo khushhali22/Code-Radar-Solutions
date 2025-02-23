@@ -17,7 +17,7 @@ int main() {
             r=(r*10)+d;
             arr[i]=arr[i]/10;
         }
-        printf("%d",r);
+        printf("%d\n",r);
         if(r==e){
             cp++;
         }
