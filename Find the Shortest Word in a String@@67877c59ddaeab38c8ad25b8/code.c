@@ -21,8 +21,8 @@ int main(){
         }
         i++;
     }
-    // for(int q=0 ; q<p  ; q++){
+    for(int q=0 ; q<p  ; q++){
         printf("%d",p);
-    // }
+    }
     // printf("%d",min);
 }
