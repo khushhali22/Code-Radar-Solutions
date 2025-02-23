@@ -5,6 +5,7 @@ int main(){
     int i=0;
     int min=100;
     char y;
+    int p;
     while(x[i]!='\0')
     {
         int j=0;
@@ -16,7 +17,7 @@ int main(){
         }
         if(min>c){
             min=c;
-           int p=i;
+           p=i;
         }
         i++;
     }
