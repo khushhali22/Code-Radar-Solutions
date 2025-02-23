@@ -10,8 +10,10 @@ int main(){
        {
            arr[j]=x[i];
            j++;
-       } i++;
+       } 
+       i++;
     } 
+    arr[j]='\0';
     printf("%s",arr);
     return 0;
 }
