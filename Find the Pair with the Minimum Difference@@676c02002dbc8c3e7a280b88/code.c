@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<limits.h>
+#include<stdlib.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -11,11 +12,11 @@ int main(){
     int ele1,ele2
     for(int i=0 ; i<n-1; i++){
         for(int j=i+1 ; j<n ; j++){
-              int r=arr[i]-arr[j];
-              if(r<min);
+              int r=abs(arr[i]-arr[j]);
+              if(r<min){
               min=r;
             ele1=arr[i];
-            ele2=arr[j];
+            ele2=arr[j];}
         }
 
     }
