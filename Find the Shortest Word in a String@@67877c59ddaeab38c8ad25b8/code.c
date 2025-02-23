@@ -19,10 +19,11 @@ int main(){
             min=c;
            p=i;
         }
+         prinf("%d",p);
         i++;
     }
     // for(int q=0 ; q<p  ; q++){
-        prinf("%d",p);
+        // prinf("%d",p);
     // }
     // printf("%d",min);
 }
