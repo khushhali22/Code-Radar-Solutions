@@ -14,7 +14,7 @@ int main(){
         }
         i++;
     } 
-    if(f==1){
+    if(f==1 || x==' '){
         printf("Yes");
     }
     else{
