@@ -5,7 +5,7 @@ int main(){
     int f=0;
     int i=0;
     while(x[i]!='\0'){
-        if(x[i]=='0' || x[i]=='1'){
+        if(x[i]=='0' || x[i]=='1' || x[i]=='  ){
             f=1;
         }
         else{
