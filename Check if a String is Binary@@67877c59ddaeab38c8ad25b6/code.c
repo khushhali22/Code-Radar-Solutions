@@ -3,13 +3,15 @@ int main(){
     char x[100];
     scanf("%[^\n]c",x);
     int f=0;
-    for(int i=0 ; i<n  ;i++){
+    int i=0;
+    while(i!='\0'){
         if(x[i]==0 || x[i]==1){
             f=1;
         }
         else{
             break;
         }
+        i++;
     } 
     if(f==1){
         printf("Yes");
