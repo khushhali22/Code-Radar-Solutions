@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 int main() {
     int n;
     scanf("%d",&n);
@@ -10,10 +9,9 @@ int main() {
     int even;
     int max=0;
     for(int i=0;  i<n; i++){
-        int p=abs(arr[i]);
-        if(p%2==0)
+        if(arr[i]%2==0)
         {
-            even =p;
+            even =arr[i];
             if(max<even)
             {
                 max=even;
