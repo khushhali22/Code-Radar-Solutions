@@ -2,11 +2,12 @@
 int main(){
     char x[100];
     scanf("%[^\n]c",x);
-   
+    int l;
+    l=strlen(x);
     int f=0;
     int i=0;
     while(x[i]!='\0'){
-        if(x[i]=='0' || x[i]=='1' || x==" "){
+        if(x[i]=='0' || x[i]=='1'){
             f=1;
         }
         else{
@@ -15,7 +16,7 @@ int main(){
         }
         i++;
     } 
-    if(f==1){
+    if(f==1 || l==0){
         printf("Yes");
     }
     else{
