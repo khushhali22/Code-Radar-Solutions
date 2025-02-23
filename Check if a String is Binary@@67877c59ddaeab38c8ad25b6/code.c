@@ -14,7 +14,7 @@ int main(){
         }
         i++;
     } 
-    if(f==1 || x[100]==' '){
+    if(f==1){
         printf("Yes");
     }
     else{
