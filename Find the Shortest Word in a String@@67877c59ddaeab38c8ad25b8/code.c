@@ -11,7 +11,7 @@ int main(){
             c++;
             j++;
         }
-        if(min<c){
+        if(min>c){
             min=c;
         }
         i++;
