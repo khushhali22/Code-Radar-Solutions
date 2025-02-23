@@ -10,6 +10,7 @@ int main(){
         else{
             continue;
         }
+        i++;
      }
     return 0;
 }
