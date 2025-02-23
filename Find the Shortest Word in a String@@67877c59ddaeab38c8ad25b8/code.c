@@ -5,7 +5,8 @@ int main(){
     int i=0;
     int min=100;
     char y;
-    while(x[i]!='\0'){
+    while(x[i]!='\0')
+    {
         int j=0;
         int c=0;
         while(x[j]!=' ')
@@ -15,8 +16,12 @@ int main(){
         }
         if(min>c){
             min=c;
+           int p=j;
         }
         i++;
     }
-    printf("%d",min);
+    for(int q=0 ; q<p  ; q++){
+        prinf("%c",x[q]);
+    }
+    // printf("%d",min);
 }
