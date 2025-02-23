@@ -2,14 +2,14 @@
 int main(){
     char x[100];
     scanf("%[^\n]c",x);
-    if(x=="\0"){
+    if(x=="1"){
         printf("Yes");
         return 0;
     }
     int f=0;
     int i=0;
     while(x[i]!='\0'){
-        if(x[i]=='0' || x[i]=='1' || x[i]==char(127)){
+        if(x[i]=='0' || x[i]=='1'){
             f=1;
         }
         else{
