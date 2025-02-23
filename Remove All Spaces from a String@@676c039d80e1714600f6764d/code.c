@@ -4,7 +4,7 @@ int main(){
      scanf("%[^\n]c",x);
      int i=0;
      while(x[i]!='\0'){
-        if(x[i]!='\0'){
+        if(x[i]!=' '){
             printf("%c",x[i]);
         }
         else{
