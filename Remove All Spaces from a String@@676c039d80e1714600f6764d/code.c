@@ -7,9 +7,6 @@ int main(){
         if(x[i]!=' '){
             printf("%c",x[i]);
         }
-        else{
-            continue;
-        }
         i++;
      }
     return 0;
