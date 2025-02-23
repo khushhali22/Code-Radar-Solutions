@@ -9,7 +9,7 @@ int main() {
         c++;
         i++;
     }
-    for (int i=0; i<c/2 ;i++){
+    for (int i=0; i<c ;i++){
         if(arr[c-i-1]!=x[i]){
             f=0;
             break;
