@@ -2,7 +2,7 @@
 int main(){
     char x[100];
     scanf("%[^\n]c",x);
-    if(x[0]==" "){
+    if(x[0]=="\n"){
         printf("Yes");
         return 0;
     }
