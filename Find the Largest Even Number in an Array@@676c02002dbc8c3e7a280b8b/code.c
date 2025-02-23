@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<limits.h>
 int main() {
     int n;
     scanf("%d",&n);
@@ -7,7 +8,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int even;
-    int max=0;
+    int max=INT_MAX;
     for(int i=0;  i<n; i++){
         if(arr[i]%2==0)
         {
