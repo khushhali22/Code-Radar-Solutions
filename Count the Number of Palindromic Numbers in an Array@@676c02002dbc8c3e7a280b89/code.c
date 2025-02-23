@@ -10,12 +10,14 @@ int main() {
     for(int i=0 ; i<n ; i++)
     {
         e=arr[i];
+
         while(arr[i]>0)
         {
             d=arr[i]%10;
             r=(r*10)+d;
             arr[i]=arr[i]/10;
         }
+        printf("%d",r);
         if(r==e){
             cp++;
         }
