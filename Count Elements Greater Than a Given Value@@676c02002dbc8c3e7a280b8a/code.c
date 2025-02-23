@@ -12,6 +12,6 @@ int main(){
             c++;
         }
     }
-    print("%d",c);
+    printf("%d",c);
     return 0;
 }
