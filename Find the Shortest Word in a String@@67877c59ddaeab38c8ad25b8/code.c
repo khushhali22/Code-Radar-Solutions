@@ -4,17 +4,22 @@ int main(){
     scanf("%[^\n]c",x);
     int i=0;
     int min=100;
+    char y;
     while(x[i]!='\0'){
         int j=0;
         int c=0;
-        while(x[j]!=' '){
+        char q[50]=' ';
+        while(x[j]!=' ')
+        {
+            q+=x[j];
             c++;
             j++;
         }
         if(min>c){
             min=c;
+            y=x[j];
         }
         i++;
     }
-    printf("%d",min);
+    printf("%c",q);
 }
