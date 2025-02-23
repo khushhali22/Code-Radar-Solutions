@@ -10,7 +10,7 @@ int main() {
         i++;
     }
     for (int i=0; i<c/2 ;i++){
-        if(arr[c-i-1]!=x[i]){
+        if(x[c-i-1]!=x[i]){
             f=0;
             break;
         }
