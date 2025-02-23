@@ -9,6 +9,7 @@ int main(){
             f=1;
         }
         else{
+            f=0;
             break;
         }
         i++;
