@@ -20,8 +20,8 @@ int main(){
         }
         i++;
     }
-    for(int q=0 ; q<p  ; q++){
-        prinf("%d",p);
-    }
+    // for(int q=0 ; q<p  ; q++){
+    //     prinf("%d",p);
+    // }
     // printf("%d",min);
 }
