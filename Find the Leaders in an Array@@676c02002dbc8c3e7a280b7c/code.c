@@ -10,9 +10,8 @@ int main()
      for(int i=n-1 ;i>0 ;i--){
         for(int j=n-2 ; j>0 ; j--){
             if(arr[i]<arr[j]){
-                printf("%d",arr[j]);
+                printf("%d ",arr[j]);
             }
         }
      }
     }
-}
