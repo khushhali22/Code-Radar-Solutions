@@ -17,7 +17,7 @@ int main(){
     for(int i=0 ; i<n-1; i++){
         for(int j=i+1 ; j<n ; j++){
               int r=abs(arr[i]-arr[j]);
-              if(r<min){
+              if(r<min  || (r==min && arr[i] + arr[j])){
               min=r;
             ele1=arr[i];
             ele2=arr[j];}
