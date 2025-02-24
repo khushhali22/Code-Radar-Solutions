@@ -19,5 +19,5 @@ int main() {
             }
         }
     }
-    printf("%d",c);
+    printf("%d",maxcount );
 }
