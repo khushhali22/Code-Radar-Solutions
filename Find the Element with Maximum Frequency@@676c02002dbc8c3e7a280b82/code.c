@@ -24,12 +24,12 @@ int main(){
         }
         int max=INT_MIN;
         for(int i=0 ; i<n ; i++){
-            if(temp[i]!=0){
+            // if(temp[i]!=0){
                 if(max<temp[i]){
                     max=temp[i];
                 }
             }
-        }
+        // }
      printf("%d",max);   
     }
     return 0;
