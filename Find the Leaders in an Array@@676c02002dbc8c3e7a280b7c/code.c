@@ -9,14 +9,15 @@ int main()
      }
      int maxright=arr[n-1];
      int r=maxright;
-     int newarr[n];
+     int newarr[100];
+     int index=0
      for(int i=n-2 ;i>=0 ;i--){
             if(arr[i]>maxright){
                 maxright=arr[i];
-                newarr[i]=maxright;
+                newarr[index++]=maxright;
         }
      }
-    for(int i=n ; i>0 ; i--){
+    for(int i= index-1; i>0 ; i--){
         printf("%d ",newarr[i]);
     }
     printf("%d",r);
