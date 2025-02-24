@@ -22,7 +22,7 @@ int main(){
                  temp[j]=0;
             }
         }
-        int max=INT_MIN;
+        int max=0;
         for(int i=0 ; i<n ; i++){
             // if(temp[i]!=0){
                 if(max<temp[i]){
