@@ -17,16 +17,20 @@ int main(){
     for(int i=0 ; i<n-1; i++){
         for(int j=i+1 ; j<n ; j++){
               int r=abs(arr[i]-arr[j]);
-              if(r<min  || (r==min && arr[i] + arr[j])){
+              if(r<min  || (r==min && arr[i] + arr[j]<ele1 + ele2)){
               min=r;
             ele1=arr[i];
             ele2=arr[j];}
         }
 
     }
-    // if(ele1<ele2){
+    if(ele1>ele2){
+        int temp=ele1;
+        ele1=ele2;
+        ele2=temp;
         printf("%d %d",ele1 ,ele2);
-    // }
+    }
+     printf("%d %d",ele1 ,ele2);
     // else{
     //     printf("%d %d",ele2 ,ele1);
     // }
