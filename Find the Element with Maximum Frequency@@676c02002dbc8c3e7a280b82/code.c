@@ -22,15 +22,16 @@ int main(){
                  temp[j]=0;
             }
         }
-        int max=0;
+        int max=INT_MIN;
         for(int i=0 ; i<n ; i++){
             // if(temp[i]!=0){
                 if(max<temp[i]){
                     max=temp[i];
+                    element=arr[i];
                 }
             }
         // }
-     printf("%d",max);   
+     printf("%d",element);   
     }
     return 0;
 }
