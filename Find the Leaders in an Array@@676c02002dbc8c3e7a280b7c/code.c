@@ -17,7 +17,7 @@ int main()
                 newarr[index++]=maxright;
         }
      }
-    for(int i= index-1; i>0 ; i--){
+    for(int i= index-1; i>=0 ; i--){
         printf("%d ",newarr[i]);
     }
     printf("%d",r);
