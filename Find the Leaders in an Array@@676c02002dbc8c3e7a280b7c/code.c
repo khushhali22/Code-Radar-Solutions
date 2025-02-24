@@ -12,7 +12,7 @@ int main()
      int newarr[100];
      int index=0;
      for(int i=n-2 ;i>=0 ;i--){
-            if(arr[i]>maxright){
+            if(arr[i]>=maxright){
                 maxright=arr[i];
                 newarr[index++]=maxright;
         }
