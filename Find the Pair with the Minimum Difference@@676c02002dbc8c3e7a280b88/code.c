@@ -28,7 +28,7 @@ int main(){
         int temp=ele1;
         ele1=ele2;
         ele2=temp;
-        printf("%d %d",ele1 ,ele2);
+        // printf("%d %d",ele1 ,ele2);
     }
      printf("%d %d",ele1 ,ele2);
     // else{
