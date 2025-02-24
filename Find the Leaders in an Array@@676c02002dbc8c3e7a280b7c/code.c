@@ -7,11 +7,10 @@ int main()
      for(int i=0 ; i<n ; i++){
         scanf("%d",&arr[i]);
      }
-     for(int i=n-1 ;i>0 ;i--){
-        for(int j=n-2 ; j>0 ; j--){
-            if(arr[i]<arr[j]){
-                printf("%d ",arr[j]);
-            }
+     int maxright=arr[n-1];
+     for(int i=n-2 ;i>=0 ;i--){
+            if(arr[i]<maxright){
+                printf("%d ",maxright);
         }
      }
     }
