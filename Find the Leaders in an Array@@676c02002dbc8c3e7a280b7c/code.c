@@ -15,5 +15,5 @@ int main()
                 printf("%d ",maxright);
         }
      }
-     printf("%d",r);
+    //  printf("%d",r);
     }
