@@ -20,7 +20,7 @@ int main(){
                     ele1=ele2;
                     ele2=temp;
                   }
-                  if(!result[ele1][ele2]){
+                  if(result[ele1][ele2] == 0){
                     printf("%d %d\n",ele1,ele2);
                     result[ele1][ele2]=1;
                   }
