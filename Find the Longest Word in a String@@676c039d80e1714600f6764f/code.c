@@ -7,7 +7,7 @@ int main(){
     char newstr[k][j];
     scanf("%[^\n]c",str);
     for(int i=0 ; i!='\0' ;i++){
-         if(x[i]==' '){
+         if(str[i]==' '){
               k++;
               j=0;
          }
