@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<string.h>
-int sort (char x[]){
+void sort (char x[]){
     int n=strlen(x);
     for(int i=0 ; i<n-1 ; i++){
         for(int j=i+1 ; j<n ;j++){
             if(x[i]>x[j]){
-                int temp=x[i];
+                char temp=x[i];
                 x[i]=x[j];
                 x[j]=temp;
             }
@@ -14,8 +14,8 @@ int sort (char x[]){
 }
 int main(){
     char x[100],y[100];
-    scanf("$[^\n]c",x);
-    scanf("$[^\n]c",y);
+    scanf("%[^\n]c",x);
+    scanf("%[^\n]c",y);
     sort(x);
     sort(y);
     if(strcmp(x,y)==0){
