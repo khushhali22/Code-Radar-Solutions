@@ -7,10 +7,10 @@ int main(){
     int a=strlen(str);
     int b=strlen(substr);
     int j=0;
-    for(int i=0 ; i<=a ;i++){
+    for(int i=0 ; i<=a-b ;i++){
         for(j=0 ; j<b ; j++)
         {
-            if(str[i+j]!=substr[i])
+            if(str[i+j]!=substr[j])
             {
                 break;
             }
