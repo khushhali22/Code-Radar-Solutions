@@ -5,6 +5,7 @@ int main(){
     char x[100];
     scanf("%[^\n]c",x);
     int k=0, j=0;
+    char arr[20][10];
     for(int i=0 ; i!='\0' ; i++){
         if(x[i]==' '){
             arr[k][j];
