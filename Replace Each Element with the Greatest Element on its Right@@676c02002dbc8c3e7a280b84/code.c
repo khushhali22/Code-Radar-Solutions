@@ -13,7 +13,7 @@ int main() {
         int max = arr[i + 1]; // Assume next element is the max
         
         // Find the max element to the right of arr[i]
-        for (int j = i + 2; j < n-1; j++) {
+        for (int j = i + 1; j < n-1; j++) {
             if (arr[j] > max) {
                 max = arr[j];
             }
