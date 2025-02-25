@@ -15,11 +15,11 @@ int main(){
                 break;
             }
         }
-        printf("%d",j);
-        if(j==b){
+        // printf("%d",j);
+        // if(j==b){
             printf("Yes");
             return 0;   
-        }
+        // }
     }
     printf("No");
     return 0;
