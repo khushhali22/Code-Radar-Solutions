@@ -11,7 +11,7 @@ int main(){
                 c++;
             }
         }
-            printf("%d",c);
+            // printf("%d",c);
             if(c==1){
                printf("%c",x[i]);
                 return 0;    
