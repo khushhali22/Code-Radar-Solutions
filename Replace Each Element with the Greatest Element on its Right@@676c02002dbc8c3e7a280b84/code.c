@@ -1,7 +1,11 @@
 #include <stdio.h>
-
 int main() {
-    int arr[] = {16, 17, 4, 3, 5, 2};
+    int n;
+    scanf("%d",&m);
+    int arr[m];
+    for(int i=0 ; i<m ; i++){
+        scanf("%d",&arr[i]);
+    }
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Traverse the array
@@ -9,7 +13,7 @@ int main() {
         int max = arr[i + 1]; // Assume next element is the max
         
         // Find the max element to the right of arr[i]
-        for (int j = i + 2; j < n; j++) {
+        for (int j = i + 2; j < n-1; j++) {
             if (arr[j] > max) {
                 max = arr[j];
             }
