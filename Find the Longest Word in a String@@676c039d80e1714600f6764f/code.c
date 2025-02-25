@@ -20,10 +20,11 @@ int main(){
     int index=0;
     for(int i=0 ; i<=k ; i++){
           if(max<strlen(newstr[i]));
-          max=strlen(newstr[i]);
+        //   max=strlen(newstr[i]);
           index=i;
     }
     printf("%s",newstr[index]);
     
     return 0;
 }
+
