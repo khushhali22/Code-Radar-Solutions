@@ -18,9 +18,9 @@ int main(){
             max=c;
             m=i;
         }
-        else if(max==c && m>i){
-            m=i;
-        }
+        // else if(max==c && m>i){
+        //     m=i;
+        // }
     }
     printf("%c",x[m]);
 }
