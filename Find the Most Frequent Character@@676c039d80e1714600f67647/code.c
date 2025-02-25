@@ -14,8 +14,11 @@ int main(){
                 c++;
             }
         }
-        if(max<=c){
+        if(max<c){
             max=c;
+            m=i;
+        }
+        else if(max==c && m>i){
             m=i;
         }
     }
