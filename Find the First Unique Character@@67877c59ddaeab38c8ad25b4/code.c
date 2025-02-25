@@ -4,9 +4,9 @@ int main(){
     char x[100];
     scanf("%s",x);
     int l=strlen(x);
-    for(int i=0 ; i!='\0' ; i++){
+    for(int i=0 ; i<l ; i++){
         int c=0;
-        for(int j=0; j!='\0' ; j++){
+        for(int j=0; j<l ; j++){
             if(x[i]==x[j]){
                 c++;
             }
