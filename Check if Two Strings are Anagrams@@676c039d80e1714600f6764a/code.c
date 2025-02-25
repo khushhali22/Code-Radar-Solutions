@@ -14,8 +14,8 @@ void sort (char x[]){
 }
 int main(){
     char x[100],y[100];
-    scanf("%[^\n]c",x);
-    scanf("%[^\n]c",y);
+    scanf("%[^\n]",x);
+    scanf("%[^\n]",y);
     sort(x);
     sort(y);
     if(strcmp(x,y)==0){
