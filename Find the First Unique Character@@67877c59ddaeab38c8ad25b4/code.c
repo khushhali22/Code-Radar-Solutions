@@ -6,11 +6,11 @@ int main(){
     int l=strlen(x);
     for(int i=0 ; i!='\0' ; i++){
         int c=0;
-        for(int j=i+1 ; j!='\0' ; j++){
+        for(int j=0; j!='\0' ; j++){
             if(x[i]==x[j]){
                 c++;
             }
-            if(c==0){
+            if(c==1){
                printf("%c",x[i]);
                 return 0;    
             }
