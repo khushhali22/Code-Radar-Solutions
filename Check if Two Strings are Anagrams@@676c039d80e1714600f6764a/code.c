@@ -18,7 +18,7 @@ int main(){
     scanf("%[^\n]c",y);
     sort(x);
     sort(y);
-    printf("%s",x);
+    printf("%s\n",x);
     if(strcmp(x,y)==0){
         printf("Yes");
     }
