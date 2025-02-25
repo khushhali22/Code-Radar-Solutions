@@ -16,10 +16,10 @@ int main(){
             }
         }
         // printf("%d",j);
-        // if(j==b){
+        if(j==b){
             printf("Yes");
             return 0;   
-        // }
+        }
     }
     printf("No");
     return 0;
