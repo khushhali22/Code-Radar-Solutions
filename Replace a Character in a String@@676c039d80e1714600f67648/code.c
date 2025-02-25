@@ -8,9 +8,10 @@ int main(){
     for(int i=0 ; i!='\0' ; i++){
             if(x[i]==y){
                 x[i]=z;
+                printf("%c",x[i]);
             }
         } 
-        printf("%s",x);
+        // printf("%s",x);
         // for(int i=0 ; i!='\0'; i++){
         //     printf("%s",x[i]);
         // }
