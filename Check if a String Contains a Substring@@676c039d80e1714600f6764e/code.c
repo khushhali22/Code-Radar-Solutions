@@ -15,6 +15,7 @@ int main(){
                 break;
             }
         }
+        printf("%d",j);
         if(j==b){
             printf("Yes");
             return 0;   
