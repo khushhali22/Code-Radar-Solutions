@@ -12,7 +12,7 @@ int main(){
         freq[x[i]-'a']++;
     }
     for(int i=0 ; i<26 ; i++){
-        if(freq[i]>=max){
+        if(freq[i]>max){
             max=freq[i];
         }
     }
