@@ -4,8 +4,8 @@ int main(){
     char x[100];
     scanf("%[^\n]c",x);
     int l=strlen(x)
-    for(int i=0 ; i<l-1 ; i++){
-        for(int j=i+1 ; j<l ; j++){
+    for(int i=0 ; i!='\0' ; i++){
+        for(int j=i+1 ; j!='\0' ; j++){
             if(x[i]!=x[j]);
             // printf("%c",x[i]);
         }
