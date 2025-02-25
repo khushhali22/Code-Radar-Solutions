@@ -23,7 +23,7 @@ int main(){
           max=strlen(newstr[i]);
           index=i;
     }
-    print("%s",newstr[index]);
+    printf("%s",newstr[index]);
     
     return 0;
 }
