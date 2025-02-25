@@ -3,7 +3,7 @@ int main(){
     char str[100];
     scanf("%[^\n]c",str);
     int left=0, right=0;
-    for(int i=0 ; str[i]!='\0' ; i++){
+    for(int i=0 ; str[right]!='\0' ; i++){
         if(str[right]==' '){
              while(left<right){
                 char temp=str[left];
@@ -12,7 +12,7 @@ int main(){
                 left++;
                 right--;
              }
-             left=right+1;
+            //  left=right+1;
         }
         else{
             right++;
