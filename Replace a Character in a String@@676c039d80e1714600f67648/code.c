@@ -5,7 +5,7 @@ int main(){
     char y,z;
     scanf("%c",&y);
     scanf("%c",&z);
-    for(int i=0 ; i!='\0' ; i++){
+    for(int i=0 ; x[i]!='\0' ; i++){
             if(x[i]==y){
                 x[i]=z;
                 printf("%c",x[i]);
