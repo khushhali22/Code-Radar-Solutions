@@ -17,7 +17,7 @@ int main(){
          }
     }
     int max=INT_MIN;
-    int index=0;
+    int index;
     for(int i=0 ; i<=k ; i++){
           if(max<strlen(newstr[i]));
         //   max=strlen(newstr[i]);
