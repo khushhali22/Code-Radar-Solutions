@@ -14,7 +14,7 @@ int main(){
                 c++;
             }
         }
-        if(ma<=c){
+        if(max<=c){
             max=c;
             m=i;
             printf("%d",m);
