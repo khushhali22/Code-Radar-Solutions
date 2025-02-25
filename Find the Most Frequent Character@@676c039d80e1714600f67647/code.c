@@ -2,25 +2,20 @@
 #include<string.h>
 #include<limits.h>
 int main(){
-    char x[100];
-    int l=strlen(x);
+    int freq[26] = {0} ; 
+    int len = strlen(freq);
     int max=INT_MIN;
-    int m;
+    int index = 0 ;
+    char x[100];
     scanf("%[^\n]c",x);
-    for(int i=0 ; i<l ; i++){
-        int c=0;
-        for(int j=0 ; j<l ; j++){
-            if(x[i]==x[j]){
-                c++;
-            }
-        }
-        if(max<c){
-            max=c;
-            m=i;
-            // printf("%d",m);
-        }
-        // printf("%d",m);
-
+    int max=INT_MIN;
+    for(int i=0 ; i<len ; i++){
+        freq(x[i]-'a')++;
     }
-    printf("%c",x[m]);
+    for(int i=0 ; i<26 ; i++){
+        if(freq[i]>max){
+            max=freq[i];
+        }
+    }
+    printf("%c",x[max]);
 }
