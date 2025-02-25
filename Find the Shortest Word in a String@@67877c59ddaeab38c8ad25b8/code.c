@@ -1,28 +1,26 @@
 #include<stdio.h>
+#include<limits.h>
+#include<string.h>
 int main(){
     char x[100];
     scanf("%[^\n]c",x);
-    int i=0;
-    int min=100;
-    char y;
-    int p;
-    while(x[i]!='\0')
-    {
-        int j=0;
-        int c=0;
-        while(x[j]!=' ')
-        {
-            c++;
-            j++;
+    int k=0; j=0;
+    for(int i=0 ; i!='\0' ; i++){
+        if(x[i]==' '){
+            arr[k][j];
+            k++;
+            j=0;
         }
-        if(min>c){
-            min=c;
-           p=j;
+        else{
+            arr[k][j]=x[i];
+            j++;   
         }
-        i++;
     }
-    // for(int q=0 ; q<p  ; q++){
-        printf("%d",p);
-    // }
-    // printf("%d",min);
+    int min=INT_MAX;
+    for(int i=0 ; i<=k ; i++){
+        if(min>strlen(arr[i])){
+            m=i;
+        }
+    }
+    printf("%s",arr[m]);
 }
