@@ -19,6 +19,7 @@ int main(){
     sort(x);
     sort(y);
     printf("%s\n",x);
+    printf("%s\n",y);
     if(strcmp(x,y)==0){
         printf("Yes");
     }
