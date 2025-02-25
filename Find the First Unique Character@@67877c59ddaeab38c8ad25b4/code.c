@@ -10,6 +10,7 @@ int main(){
             if(x[i]==x[j]){
                 c++;
             }
+            printf("%d",c);
             if(c==1){
                printf("%c",x[i]);
                 return 0;    
