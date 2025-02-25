@@ -6,8 +6,9 @@ int main(){
     scanf(" %[^\n]c",substr);
     int a=strlen(str);
     int b=strlen(substr);
+    int j=0
     for(int i=0 ; i<a ;i++){
-        for(int j=0 ; j<b ; j++){
+        for(j=0 ; j<b ; j++){
             if(str[i+j]!=substr[i]){
                 break;
             }
