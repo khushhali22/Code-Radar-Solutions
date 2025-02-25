@@ -1,9 +1,6 @@
 #include<stdio.h>
-// #include<string.h>
-// #include<limits.h>
 int main(){
     char x[100];
-    // int l=strlen(x);
     scanf("%[^\n]c",x);
     char y,z;
     scanf("%c",y);
@@ -16,5 +13,5 @@ int main(){
         for(int i=0 ; i!='\0'; i++){
             printf("%c",x[i]);
         }
-        
+      return 0;  
 }
