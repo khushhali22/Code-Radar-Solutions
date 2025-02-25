@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int sort (char x[]){
     int n=strlen(x);
     for(int i=0 ; i<n-1 ; i++){
