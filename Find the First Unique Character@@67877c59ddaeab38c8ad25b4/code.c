@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char x[100];
-    scanf("%[^\n]c",x);
+    scanf("%s",x);
     int l=strlen(x);
     int c=0;
     for(int i=0 ; i!='\0' ; i++){
@@ -17,5 +17,6 @@ int main(){
             }
         }
     }
+    printf("-");
     return 0;
 }
