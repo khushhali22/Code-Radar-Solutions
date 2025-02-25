@@ -8,7 +8,7 @@ int main(){
     char arr[20][10];
     for(int i=0 ; i!='\0' ; i++){
         if(x[i]==' '){
-            arr[k][j];
+            // arr[k][j];
             k++;
             j=0;
         }
