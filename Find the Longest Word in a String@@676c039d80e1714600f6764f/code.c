@@ -6,7 +6,7 @@ int main(){
     int k=0,j=0;
     char newstr[20][20];
     scanf("%[^\n]c",str);
-    for(int i=0 ; i!='\0' ;i++){
+    for(int i=0 ; str[i]!='\0' ;i++){
          if(str[i]==' '){
               k++;
               j=0;
