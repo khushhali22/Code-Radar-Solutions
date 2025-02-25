@@ -10,6 +10,9 @@ int main(){
                 x[i]=z;
                 printf("%c",x[i]);
             }
+            else{
+                printf("%c",x[i]);
+            }
         } 
         // printf("%s",x);
         // for(int i=0 ; i!='\0'; i++){
