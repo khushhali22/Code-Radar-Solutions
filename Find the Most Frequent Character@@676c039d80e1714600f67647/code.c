@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<strimg.h>
+#include<string.h>
 #include<limits.h>
 int main(){
     char x[100];
