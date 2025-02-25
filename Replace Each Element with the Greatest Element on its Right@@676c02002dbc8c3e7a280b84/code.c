@@ -19,7 +19,7 @@ int main() {
             }
         }
         
-        // arr[i] = max; // Replace current element with max found
+        arr[i] = max; // Replace current element with max found
     }
 
     arr[n - 1] = -1; // Last element should be -1
