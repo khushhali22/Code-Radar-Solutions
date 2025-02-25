@@ -14,7 +14,8 @@ int main(){
     for(int i=0 ; i<26 ; i++){
         if(freq[i]>max){
             max=freq[i];
+            index = i ;
         }
     }
-    printf("%c",x[max]);
+    printf("%c",x[index]);
 }
