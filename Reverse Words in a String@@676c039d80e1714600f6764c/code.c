@@ -4,7 +4,7 @@ int main(){
     scanf("%[^\n]c",str);
     int left=0, right=0;
     for(int i=0 ; str[right]!='\0' ; i++){
-        if(str[right]==' '){
+        if(str[right]==' ' || str[right+1]=='\0'){
              while(left<right){
                 char temp=str[left];
                 str[left]=str[right];
