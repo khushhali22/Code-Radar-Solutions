@@ -9,7 +9,7 @@ int main(){
     scanf("%[^\n]c",x);
     int len = strlen(x);
     for(int i=0 ; i<len ; i++){
-        freq(x[i]-'a')=1;
+        freq(x[i]-'a')++;
     }
     for(int i=0 ; i<26 ; i++){
         if(freq[i]>max){
