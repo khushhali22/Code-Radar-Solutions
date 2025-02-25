@@ -17,8 +17,9 @@ int main(){
         if(max<c){
             max=c;
             m=i;
+            printf("%d",m);
         }
-        printf("%d",m);
+        // printf("%d",m);
 
     }
     printf("%c",x[m]);
