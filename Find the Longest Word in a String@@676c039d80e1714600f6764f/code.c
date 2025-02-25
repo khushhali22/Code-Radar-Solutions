@@ -4,7 +4,7 @@
 int main(){
     char str[100];
     int k=0,j=0;
-    char newstr[k][j];
+    char newstr[20][20];
     scanf("%[^\n]c",str);
     for(int i=0 ; i!='\0' ;i++){
          if(str[i]==' '){
@@ -27,4 +27,6 @@ int main(){
     
     return 0;
 }
+
+
 
