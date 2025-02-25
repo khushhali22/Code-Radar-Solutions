@@ -14,10 +14,11 @@ void sort (char x[]){
 }
 int main(){
     char x[100],y[100];
-    scanf("%[^\n]",x);
-    scanf("%[^\n]",y);
+    scanf("%[^\n]c",x);
+    scanf("%[^\n]c",y);
     sort(x);
     sort(y);
+    printf("%s",x);
     if(strcmp(x,y)==0){
         printf("Yes");
     }
