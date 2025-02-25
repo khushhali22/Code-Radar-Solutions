@@ -14,7 +14,7 @@ int main(){
                 c++;
             }
         }
-        if(max<c){
+        if(max<=c){
             max=c;
             m=i;
         }
