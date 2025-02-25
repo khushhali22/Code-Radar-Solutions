@@ -12,7 +12,7 @@ int main(){
                 left++;
                 right--;
              }
-            //  left=right+1;
+             left=right+1;
         }
         else{
             right++;
