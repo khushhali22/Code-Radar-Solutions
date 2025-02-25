@@ -9,11 +9,11 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Traverse the array
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < m - 1; i++) {
         int max = arr[i + 1]; // Assume next element is the max
         
         // Find the max element to the right of arr[i]
-        for (int j = i + 1; j < n-1; j++) {
+        for (int j = i + 1; j < m; j++) {
             if (arr[j] > max) {
                 max = arr[j];
             }
