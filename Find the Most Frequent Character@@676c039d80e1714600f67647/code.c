@@ -8,7 +8,6 @@ int main(){
     char x[100];
     scanf("%[^\n]c",x);
     int len = strlen(x);
-    int max=INT_MIN;
     for(int i=0 ; i<len ; i++){
         freq(x[i]-'a')++;
     }
