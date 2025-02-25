@@ -14,7 +14,10 @@ int main(){
             }
         }
         if(j==b){
-            printf("%s",str);
+            printf("Yes");
+        }
+        else{
+            printf("No");
         }
     }
     return 0;
