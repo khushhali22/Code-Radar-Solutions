@@ -37,8 +37,7 @@ for(int i=0 ; i<n  ; i++){
         f=1;
     }
     if(arr[i]<=0 || arr[i]>n){
-        printf("1");
-        return 0;
+        arr[i]=1;
     }
 }
 // if(f==0){
