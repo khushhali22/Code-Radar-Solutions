@@ -20,7 +20,7 @@ int main()
     //  }
     for(int i=0 ; i<n ;i++){
         int max=arr[i];
-            if(arr[i]<max){
+            if(arr[i]<=max){
                 printf("%d",arr[i]);
             }
     }
