@@ -3,7 +3,7 @@ int main() {
     char x[1000];
     int c=0,i=0;
     fgets(x,sizeof(x),stdin);
-    if(x[0]!=' ' && x[0]!='\n'){
+    if(x[0]!=' ' && x[0]!='\0'){
         c=1;
     }
     while(x[i]!='\0'){
