@@ -10,7 +10,7 @@ int main() {
     // for(int j=0 ; j<n; j++){
     //         printf("%c",x[n-j-1]);
     // }
-    for(int j=n; j>=0 ; j--){
+    for(int j=n-1; j>=0 ; j--){
         printf("%c",x[j]);
     }
     
