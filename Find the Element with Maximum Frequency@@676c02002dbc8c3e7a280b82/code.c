@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<limits.h>
 int main(){
-    int n;
+    int n,max=0;
     scanf("%d",&n);
     int arr[n];
     int temp[n];
@@ -9,28 +9,41 @@ int main(){
         scanf("%d",&arr[i]);
         temp[i]=1;
     }
-    for(int i=0 ; i<n ; i++){
-        if(temp[i]==0){
-            continue;
-        }
-        for(int j=i+1 ; j<n; j++){
-            if(temp[j]==0){
-                continue;
-            }
+    for(int i=0 ; i<n ;i++){
+        int c=1;
+        for(int j=i+1 ; j<n ; j++){
             if(arr[i]==arr[j]){
-                 temp[i]+=1;
-                 temp[j]=0;
+                c++;
             }
+
         }
-        int max=INT_MIN;
-        int element=-1;
-        for(int i=0 ; i<n ; i++){
-                if(max<temp[i]){
-                    max=temp[i];
-                    element=arr[i];
-                }
-            }
-     printf("%d",element);   
+        if(c>max){
+            max=c;
+        }
     }
+    printf("%d",max);
+    // for(int i=0 ; i<n ; i++){
+    //     if(temp[i]==0){
+    //         continue;
+    //     }
+    //     for(int j=i+1 ; j<n; j++){
+    //         if(temp[j]==0){
+    //             continue;
+    //         }
+    //         if(arr[i]==arr[j]){
+    //              temp[i]+=1;
+    //              temp[j]=0;
+    //         }
+    //     }
+    //     int max=INT_MIN;
+    //     int element=-1;
+    //     for(int i=0 ; i<n ; i++){
+    //             if(max<temp[i]){
+    //                 max=temp[i];
+    //                 element=arr[i];
+    //             }
+    //         }
+    //  printf("%d",element);   
+    // }
     return 0;
 }
