@@ -19,9 +19,10 @@ int main(){
         }
         if(c>max){
             max=c;
+            int s=arr[i];
         }
     }
-    printf("%d",max);
+    printf("%d",s);
     // for(int i=0 ; i<n ; i++){
     //     if(temp[i]==0){
     //         continue;
