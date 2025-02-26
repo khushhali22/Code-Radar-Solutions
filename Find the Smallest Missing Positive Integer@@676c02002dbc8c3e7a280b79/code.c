@@ -40,9 +40,9 @@ for(int i=0 ; i<n  ; i++){
         arr[i]=1;
     }
 }
-// if(f==0){
-//     printf("1");
-// }
+if(f==0){
+    printf("1");
+}
 for(int i=0 ; i<n ; i++){
     int postivenum=abs(arr[i]);
     int index=postivenum-1;
