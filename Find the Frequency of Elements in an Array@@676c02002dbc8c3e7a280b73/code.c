@@ -36,7 +36,7 @@ int main() {
     {
         if(temp[i]!=0)
         {
-            printf("%d %d",arr[i],temp[i]);
+            printf("%d %d\n",arr[i],temp[i]);
         }
     }
 
