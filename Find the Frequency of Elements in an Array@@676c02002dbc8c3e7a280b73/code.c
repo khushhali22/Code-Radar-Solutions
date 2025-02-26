@@ -23,7 +23,7 @@ int main() {
                       {
                         continue;
                       }
-                      if(arr[i]==temp[j])
+                      if(arr[i]==arr[j])
                       {
                         temp[i]++;
                         temp[j]=0;
