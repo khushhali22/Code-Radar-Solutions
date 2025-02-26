@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<limits.h>
 int main(){
-    int n,max=0;
+    int n,max=0,s;
     scanf("%d",&n);
     int arr[n];
     int temp[n];
@@ -19,7 +19,7 @@ int main(){
         }
         if(c>max){
             max=c;
-            int s=arr[i];
+            s=arr[i];
         }
     }
     printf("%d",s);
