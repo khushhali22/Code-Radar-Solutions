@@ -7,8 +7,11 @@ int main() {
         n++;
         i++;
     }
-    for(int j=0 ; j<n; j++){
-            printf("%c",x[n-j-1]);
+    // for(int j=0 ; j<n; j++){
+    //         printf("%c",x[n-j-1]);
+    // }
+    for(int j=n; j>=0 ; j--){
+        printf("%c",x[j]);
     }
     
     return 0;
