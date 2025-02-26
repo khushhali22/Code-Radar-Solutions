@@ -2,7 +2,7 @@
 #include <limits.h>
 int main() {
     int n;
-    int max=INT_MIN:
+    int max=INT_MIN;
    int min=INT_MAX;
     scanf("%d",&n);
     int arr[n];
