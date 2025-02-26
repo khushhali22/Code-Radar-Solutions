@@ -15,6 +15,7 @@ int main()
             if(arr[i]>=maxright){
                 maxright=arr[i];
                 newarr[index]=maxright;
+                index++;
         }
      }
     for(int i= index-1; i>=0 ; i--){
