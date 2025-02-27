@@ -16,7 +16,7 @@ int main(){
     int a=strlen(x);
     int b=strlen(y);
     int f=1;
-    for(int j=0 ; j<=a-b ; j++)
+    for(int j=0 ; j<=(2*a-b) ; j++)
     {
         f=1;
         for(int k=0 ; y[k]!='\0' ; k++)
