@@ -5,7 +5,7 @@ int main(){
     scanf("%[^\n]c",x);
     char y[100];
     scanf(" %[^\n]c",y);
-    char temp[2*strlen(x)+1];
+    char temp[2*strlen(x)];
     int a=strlen(x);
     int b=strlen(y);
     if(a!=b){
@@ -19,8 +19,8 @@ int main(){
     for(int j=0 ; x[j]!='\0' ; j++){
         temp[i+j]=x[i];
     }
-    // int f;
-    for(int j=0 ; j<2*a-b ; j++)
+    
+    for(int j=0 ; j<a-b ; j++)
     {
         int f=1;
         for(int k=0 ; y[k]!='\0' ; k++)
