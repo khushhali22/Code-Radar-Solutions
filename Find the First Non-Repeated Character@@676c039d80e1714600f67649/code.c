@@ -10,7 +10,7 @@ int main(){
         if(freq[(int)str[i]]==1){
             int index=i;
             printf("%c",str[index]);
-            break;
+            return 0;
         }
     }
     printf("-");
