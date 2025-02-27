@@ -6,6 +6,12 @@ int main(){
     char y[100];
     scanf(" %[^\n]c",y);
     char temp[2*strlen(x)];
+    int a=strlen(x);
+    int b=strlen(y);
+    if(a!=b){
+        printf("No");
+        return 0;
+    }
     int i=0;
     for(i=0 ; x[i]!='\0' ; i++){
             temp[i]=x[i];
@@ -13,10 +19,8 @@ int main(){
     for(int j=0 ; x[j]!='\0' ; j++){
         temp[i+j]=x[i];
     }
-    int a=strlen(x);
-    int b=strlen(y);
     int f=1;
-    for(int j=0 ; j<=(2*a-b) ; j++)
+    for(int j=0 ; j<=a-b ; j++)
     {
         f=1;
         for(int k=0 ; y[k]!='\0' ; k++)
@@ -32,6 +36,7 @@ int main(){
             return 0;
         }
     }
+    
         printf("No");
         return 0 ;
 }
