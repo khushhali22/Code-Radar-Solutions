@@ -16,9 +16,11 @@ int main(){
     for(int j=0 ; x[j]!='\0' ; j++){
         for(int k=0 ; y[k]!='\0' ; k++){
             if(temp[j+k]!=y[k]){
+
                 break;
             }
         }
         printf("Yes");
+        return 0 ;
     }
 }
