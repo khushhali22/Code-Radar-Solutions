@@ -12,8 +12,9 @@ int main(){
     
         scanf("%d",&a.rollno);
         // getchar();
-        scanf("%[^\n]c",a.name);
-        scanf("%f",&a.marks);
+        scanf("%[^\n]c ",a.name);
+         getchar();
+        scanf(" %f",&a.marks);
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n",a.rollno,a.name,a.marks);
         
     }
