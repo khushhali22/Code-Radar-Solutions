@@ -4,20 +4,16 @@ int main(){
     char x[100];
     scanf("%s",x);
     int l=strlen(x);
+    int freq[256]={0};
     for(int i=0 ; i<l ; i++){
-        int c=0;
-        for(int j=0; j<l ; j++){
-            if(x[i]==x[j]){
-                c++;
-            }
+        freq[(int)x[i]]++;
         }
-            // printf("%d",c);
-            if(c==1){
-               printf("%c",x[i]);
-                return 0;    
-            
+    for(int i=0 ; i<l ;i++){
+        if(freq[(int)x[i]]==1){
+            printf("%c",str[i]);
         }
-    }
+    }   
+    
     printf("-");
     return 0;
 }
