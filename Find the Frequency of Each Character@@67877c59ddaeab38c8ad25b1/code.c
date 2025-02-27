@@ -6,7 +6,7 @@ int main(){
     for(int i=0 ; str[i]!='\0' ; i++){
         freq[(int)str[i]]++;
     }
-    for(int i=0 ; str[i]!='\0' ; i+){
+    for(int i=0 ; str[i]!='\0' ; i++){
         int frequency=freq[(int)str[i]];
         printf("%c: %d\n",str[i],frequency);
     }
