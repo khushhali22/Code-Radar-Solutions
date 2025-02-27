@@ -2,12 +2,14 @@
 int main(){
     char str[100];
     scanf("%[^\n]c",str);
+    char freq[26]={0};
     for(int i=0 ; str[i]!='\0' ; i++){
-        for(int j=i+1 ; str[j]!='\0' ; j++){
-            if(str[i]!=str[j]){
-                char nonre=str[i];
-            }
+        freq[str[i]-'a']++;
         }
-        printf("%c",nonre);
+    for(int i=0 ; freq<26 ; i++){
+        if(freq[i]==1){
+            printf("%c",freq[i]);
+            break;
+        }
     }
 }
