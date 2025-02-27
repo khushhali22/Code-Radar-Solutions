@@ -7,7 +7,7 @@ int main(){
         freq[str[i]-'a']++;
         }
     for(int i=0 ; i<26 ; i++){
-        if(freq[i]==1){
+        if(freq[str[i]]==1){
             int index=i;
             printf("%c",str[index]);
             break;
