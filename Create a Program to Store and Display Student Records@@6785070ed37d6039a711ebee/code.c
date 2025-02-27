@@ -9,12 +9,12 @@ int main(){
     scanf("%d",&n);
     struct Student arr[n];
     for(int i=0 ; i<n ; i++){
-        scanf("%d",&a.rollno);
+        scanf("%d",&arr[i].rollno);
         // getchar();
-        scanf("%[^\n]c ",a.name);
+        scanf("%[^\n]c ",arr[i].name);
          getchar();
-        scanf(" %f",&a.marks);
-        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",a.rollno,a.name,a.marks);
+        scanf(" %f",&arr[i].marks);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",arr[i].rollno,arr[i].name,arr[i].marks);
         
     }
     return 0;
