@@ -8,7 +8,8 @@ int main(){
         }
     for(int i=0 ; i<26 ; i++){
         if(freq[i]==1){
-            printf("%c",freq[i]);
+            int index=i;
+            printf("%c",str[index]);
             break;
         }
     }
