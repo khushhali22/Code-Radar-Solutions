@@ -10,8 +10,8 @@ int main(){
     for(int i =0 ; i<n ; i++){
         struct Student a;
         scanf("%d",&a.rollno);
-        scanf("%[^\n]c",&a.name);
-        scanf(" %f",&a.marks);
+        scanf("%[^\n]",&a.name);
+        scanf("%f",&a.marks);
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n",a.rollno,a.name,a.marks);
         
     }
