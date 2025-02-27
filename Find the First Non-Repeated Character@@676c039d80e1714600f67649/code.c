@@ -4,10 +4,10 @@ int main(){
     scanf("%[^\n]c",str);
     char freq[26]={0};
     for(int i=0 ; str[i]!='\0' ; i++){
-        freq[str[i]-'a']++;
+        freq[int(str[i])]++;
         }
     for(int i=0 ; str[i]!='\0' ; i++){
-        if(freq[str[i]]==1){
+        if(freq[int(str[i])]==1){
             int index=i;
             printf("%c",str[index]);
             break;
