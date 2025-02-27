@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<ctype.h>
 int main(){
     char x[100];
     scanf("%[^\n]c",x);
@@ -9,11 +10,12 @@ int main(){
     {
        if(x[i]!=' ')
        {
-           arr[j]=x[i];
+           arr[j]=tolower(x[i]);
            j++;
        } 
        i++;
     } 
+    arr[j]='\0';
     // printf("%s",arr);
     int f=1;
     int len = strlen(arr);
