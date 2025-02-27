@@ -11,7 +11,7 @@ int main(){
         struct Student a;
         scanf("%d",&a.rollno);
         scanf("%[^\n]c",&a.name);
-        scanf("%d",&a.marks);
+        scanf("%f",&a.marks);
         printf("Roll Number: %d, Name: %s, MArks: %.2f\n",a.rollno,a.name,a.marks);
         
     }
