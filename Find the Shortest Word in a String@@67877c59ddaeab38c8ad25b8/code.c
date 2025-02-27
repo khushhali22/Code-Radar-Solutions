@@ -19,8 +19,9 @@ int main(){
     }
     int min=INT_MAX;
     int m;
-    for(int i=0 ; i<=k ; i++){
+    for(int i=0 ; i<k ; i++){
         if(min>strlen(arr[i])){
+            min=strlen(arr[i]);
             m=i;
         }
     }
