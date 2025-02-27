@@ -15,19 +15,22 @@ int main(){
     }
     int a=strlen(x);
     int b=strlen(y);
-    for(int j=0 ; j<=a-b ; j++){
+    for(int j=0 ; j<=a-b ; j++)
+    {
         int f=1;
-        for(int k=0 ; y[k]!='\0' ; k++){
-            if(temp[j+k]!=y[k]){
+        for(int k=0 ; y[k]!='\0' ; k++)
+        {
+            if(temp[j+k]!=y[k])
+            {
                 f=0;
                break;
             }
         }
-        if(f==1){
+    }
+    if(f==1){
             printf("Yes");
             return 0;
         }
         printf("No");
         return 0 ;
-    }
 }
