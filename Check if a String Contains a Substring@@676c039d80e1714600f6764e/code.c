@@ -8,9 +8,9 @@ int main(){
     int b=strlen(substr);
     int j=0;
     for(int i=0 ; i<=a-b ;i++){
-        for(j=0 ; j<b ; j++)
+        for(j=i+1 ; j<b ; j++)
         {
-            if(str[i+j]!=substr[j])
+            if(str[j]!=substr[j])
             {
                 break;
             }
