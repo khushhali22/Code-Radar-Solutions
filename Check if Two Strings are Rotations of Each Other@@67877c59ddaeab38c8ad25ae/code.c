@@ -27,11 +27,11 @@ int main(){
                break;
             }
         }
-    }
-    if(f==1){
+        if(f==1){
             printf("Yes");
             return 0;
         }
+    }
         printf("No");
         return 0 ;
 }
