@@ -15,7 +15,7 @@ int main(){
        i++;
     } 
     int f=1;
-    len = strlen(arr);
+    int len = strlen(arr);
     for(int k=0 ; k<len/2 ; k++){
       if(arr[i]!=arr[len-i-1]){
         f=0;
