@@ -14,6 +14,7 @@ int main(){
        } 
        i++;
     } 
+    printf("%s",arr);
     int f=1;
     int len = strlen(arr);
     for(int k=0 ; k<len/2 ; k++){
