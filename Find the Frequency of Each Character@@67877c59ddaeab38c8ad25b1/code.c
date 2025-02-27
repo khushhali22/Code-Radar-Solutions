@@ -12,3 +12,4 @@ int main(){
         freq[(int)str[i]]=0;
     }
 }
+}
