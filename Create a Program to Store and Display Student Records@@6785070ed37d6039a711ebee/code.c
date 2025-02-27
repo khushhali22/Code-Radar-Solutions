@@ -13,7 +13,7 @@ int main(){
         // getchar();
         scanf("%s ",arr[i].name);
          getchar();
-        scanf(" %f",&arr[i].marks);
+        scanf("  %f",&arr[i].marks);
         printf("Roll Number: %d, Name: %s, Marks: %f\n",arr[i].rollno,arr[i].name,arr[i].marks);
         
     }
