@@ -12,7 +12,7 @@ int main(){
         scanf("%d",&arr[i].rollno);
         // getchar();
         scanf("%s ",arr[i].name);
-         getchar();
+        //  getchar();
         scanf("  %f",&arr[i].marks);
         printf("Roll Number: %d, Name: %s, Marks: %f\n",arr[i].rollno,arr[i].name,arr[i].marks);
         
