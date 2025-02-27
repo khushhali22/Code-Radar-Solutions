@@ -19,11 +19,10 @@ int main(){
     for(int j=0 ; x[j]!='\0' ; j++){
         temp[i+j]=x[i];
     }
-    temp[2*a]='\0';
-    int f=1;
+    // int f;
     for(int j=0 ; j<2*a-b ; j++)
     {
-        f=1;
+        int f=1;
         for(int k=0 ; y[k]!='\0' ; k++)
         {
             if(temp[j+k]!=y[k])
