@@ -11,6 +11,7 @@ int main(){
     for(int i=0 ; i<l ;i++){
         if(freq[(int)x[i]]==1){
             printf("%c",x[i]);
+            return 0;
         }
     }   
     
