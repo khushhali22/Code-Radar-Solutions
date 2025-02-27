@@ -10,10 +10,8 @@ int main(){
     struct Student arr[n];
     for(int i=0 ; i<n ; i++){
         scanf("%d",&arr[i].rollno);
-        // getchar();
-        scanf("%s ",arr[i].name);
-        //  getchar();
-        scanf("  %f",&arr[i].marks);
+        scanf("%s",arr[i].name);
+        scanf("%f",&arr[i].marks);
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n",arr[i].rollno,arr[i].name,arr[i].marks);
         
     }
