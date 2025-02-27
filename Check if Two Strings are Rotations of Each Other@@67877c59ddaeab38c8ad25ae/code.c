@@ -4,15 +4,20 @@ int main(){
     scanf("%[^\n]c",x);
     char y[100];
     scanf(" %[^\n]c",y);
-    char z[100];
-    for(int i=0 ; y[i]!='\0' ; i++){
-        z[i]=y[i]
+    char temp[2*n];
+    int i=0;
+    for(i=0 ; x[i]!='\0' ; i++){
+            temp[i]=x[i];
     }
-    for(int i=0 ; x[i]!='\0' ; i++){
-        for(int j=0 ; x[j]!='\0' ; j++){
-                if(x[i+j]!=y[j]){
-                     break;
-                }
+    for(int j=0 ; x[j]!='\0' ; j++){
+        temp[i+j]=x[i];
+    }
+    for(int j=0 ; x[j]!='\0' ; j++){
+        for(int k=0 ; y[k]!='\0' ; k++){
+            if(temp[j+k]!=y[k]){
+                break;
+            }
         }
+        printf("Yes");
     }
 }
