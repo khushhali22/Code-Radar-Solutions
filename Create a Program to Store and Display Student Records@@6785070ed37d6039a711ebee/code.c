@@ -7,9 +7,8 @@ int main(){
     };
     int n ;
     scanf("%d",&n);
-    for(int i =0 ; i<n ; i++){
-        struct Student a;
-    
+    struct Student arr[n];
+    for(int i=0 ; i<n ; i++){
         scanf("%d",&a.rollno);
         // getchar();
         scanf("%[^\n]c ",a.name);
