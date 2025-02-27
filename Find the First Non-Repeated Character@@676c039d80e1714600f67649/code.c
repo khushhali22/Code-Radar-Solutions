@@ -6,7 +6,7 @@ int main(){
     for(int i=0 ; str[i]!='\0' ; i++){
         freq[str[i]-'a']++;
         }
-    for(int i=0 ; freq<26 ; i++){
+    for(int i=0 ; i<26 ; i++){
         if(freq[i]==1){
             printf("%c",freq[i]);
             break;
