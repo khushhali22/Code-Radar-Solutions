@@ -5,7 +5,7 @@ int main(){
     scanf("%[^\n]c",x);
     char y[100];
     scanf(" %[^\n]c",y);
-    char temp[2*strlen(x)];
+    char temp[2*strlen(x)+1];
     int a=strlen(x);
     int b=strlen(y);
     if(a!=b){
