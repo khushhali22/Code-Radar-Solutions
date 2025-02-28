@@ -22,6 +22,6 @@ int main(){
             x=i;
         }
     }
-    printf("Top scorer: Roll Number: %d, Name: %s, Marks: %.2f",arr[x].rollno,arr[x].name,arr[x].marks);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",arr[x].rollno,arr[x].name,arr[x].marks);
     return 0;
 }
