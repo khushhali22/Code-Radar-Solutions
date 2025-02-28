@@ -14,11 +14,12 @@ int main(){
         scanf("%s ",&arr[i].name);
         scanf("%f\n",&arr[i].marks);
     }
-    int max=INT_MIN;
+    int max=-1.0f;
+    int x=-1;
     for(int i=0; i<n ;i++){
         if(max<arr[i].marks){
             max=arr[i].marks;
-            int x=i;
+            x=i;
         }
     }
     printf("Top scorer: Roll Number: %d, Name: %s, Marks: %.2f",arr[x].rollno,arr[x].name,arr[x].marks);
