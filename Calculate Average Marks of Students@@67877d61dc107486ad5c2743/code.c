@@ -14,7 +14,7 @@ int main(){
         scanf("%d ",&arr[i].rollno);
         scanf("%s ",&arr[i].name);
         scanf("%f\n",&arr[i].marks);
-        sum+=arr[i]marks;
+        sum+=arr[i].marks;
     }
     float avg=sum/n;
     printf("%.2f",avg);
