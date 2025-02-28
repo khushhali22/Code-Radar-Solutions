@@ -7,7 +7,7 @@ int main(){
     };
     int n;
     scanf("%d",&n);
-    int arr[n];
+    struct Student arr[n];
     for(int i=0 ;i<n ;i++){
         scanf("%d ",&arr[i].rollno);
         scanf("%s ",&arr[i].name);
