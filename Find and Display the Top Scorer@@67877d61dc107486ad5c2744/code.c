@@ -14,7 +14,7 @@ int main(){
         scanf("%s ",&arr[i].name);
         scanf("%f\n",&arr[i].marks);
     }
-    int max=-1.0f;
+    int max=arr[0];
     int x=-1;
     for(int i=0; i<n ;i++){
         if(max<arr[i].marks){
