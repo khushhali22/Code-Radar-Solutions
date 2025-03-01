@@ -10,9 +10,9 @@ int main(){
     scanf("%d",&n);
     struct MovieTicket arr[n];
     for(int i=0; i<n ; i++){
-        scanf("%s",&arr[i].name);
-        scanf("%s ",&arr[i].typr);
-        scanf("%d",&arr[i].price);
+        scanf("%s",arr[i].name);
+        scanf("%s ",arr[i].typr);
+        scanf("%d",arr[i].price);
     }
     float c=0,b=0,t=0;
     for(int i=0 ; i<n ; i++){
