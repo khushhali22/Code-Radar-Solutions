@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
     struct Vehicle{
         char number[100];
@@ -15,13 +16,13 @@ int main(){
     }
     float c=0,b=0,t=0;
     for(int i=0 ; i<n ; i++){
-        if(arr[i].typr==Car){
+        if(strcmp(arr[i].typr,Car)==0){
             c=c+arr[i].toll;
         }
-        else if(arr[i].typr==Bike){
+        else if(strcmp(arr[i].typr,Bike)==0){
             b=b+arr[i].toll;
         }
-        else if(arr[i].typr==Truck){
+        else if(strcmp(arr[i].typr,Truck)==0){
             t=t+arr[i].toll;
         }
     }
