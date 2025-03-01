@@ -10,19 +10,19 @@ int main(){
     scanf("%d",&n);
     struct Vehicle arr[n];
     for(int i=0; i<n ; i++){
-        scanf("%d",&arr[i].number);
+        scanf("%s",&arr[i].number);
         scanf("%s",&arr[i].typr);
         scanf("%d",&arr[i].toll);
     }
     float c=0,b=0,t=0;
     for(int i=0 ; i<n ; i++){
-        if(strcmp(arr[i].typr,Car)==0){
+        if(strcmp(arr[i].typr,"Car")==0){
             c=c+arr[i].toll;
         }
-        else if(strcmp(arr[i].typr,Bike)==0){
+        else if(strcmp(arr[i].typr,"Bike")==0){
             b=b+arr[i].toll;
         }
-        else if(strcmp(arr[i].typr,Truck)==0){
+        else if(strcmp(arr[i].typr,"Truck")==0){
             t=t+arr[i].toll;
         }
     }
