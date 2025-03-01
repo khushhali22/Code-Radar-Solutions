@@ -8,7 +8,7 @@ int main(){
     };
     int n;
     scanf("%d",&n);
-    struct Vehicle arr[n];
+    struct MovieTicket arr[n];
     for(int i=0; i<n ; i++){
         scanf("%s",&arr[i].name);
         scanf("%s",&arr[i].typr);
