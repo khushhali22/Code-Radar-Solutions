@@ -19,7 +19,7 @@ int main(){
             bonous=arr[i].salary *0.10;
         }
         else{
-             bonous=arr[i].salary*0.5;
+             bonous=arr[i].salary*0.05;
         }
         printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",arr[i].id,arr[i].name,bonous);
     }
