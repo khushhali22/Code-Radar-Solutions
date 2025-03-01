@@ -20,8 +20,10 @@ int main(){
     printf("Books above price %.2f:\n",threshold);
     for(int i=0 ; i<n ; i++){
         if(threshold>arr[i].price){
-            index=i;
         printf("Title: %s, Author: %s,Price: %.2f\n",arr[i].title,arr[i].author,arr[i].price);
+        }
+        else{
+            continue;
         }
     }
     return 0;
