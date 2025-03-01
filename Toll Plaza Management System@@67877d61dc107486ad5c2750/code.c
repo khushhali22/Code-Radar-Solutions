@@ -26,6 +26,6 @@ int main(){
             t=t+arr[i].toll;
         }
     }
-    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",c,b,t);
+    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",c,t,b);
     return 0;
 }
