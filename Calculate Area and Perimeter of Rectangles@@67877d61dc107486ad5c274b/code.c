@@ -14,7 +14,8 @@ int main(){
     for(int i=0; i<n ; i++){
         float area=arr[i].length*arr[i].breadth;
         float perimeter=2*(arr[i].length+arr[i].breadth);
-        printf("Rectangle 1: Area = %.2f, Perimeter = %.2f\n",area,perimeter);
+        int index=i+1;
+        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",index,area,perimeter);
     }
     return 0;
 }
