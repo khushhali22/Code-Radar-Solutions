@@ -14,11 +14,13 @@ int main(){
         scanf("%f",&arr[i].marks);
     }
     float min=-1.0f;
+    int index;
     for(int i=0; i<n ; i++){
         if(min>arr[i].marks){
             min=arr[i].marks;
+            index=i;
         }
         }
-        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f"arr[min].rollno,arr[min].name.arr[min].marks);
+        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",arr[index].rollno,arr[index].name.arr[index].marks);
     return 0;
 }
