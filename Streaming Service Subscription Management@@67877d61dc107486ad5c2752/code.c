@@ -25,7 +25,7 @@ int main(){
             b=b+arr[i].price;
             us++;
         }
-        else if(strcmp(arr[i].typr,"Prmium")==0){
+        else if(strcmp(arr[i].typr,"Premium")==0){
             t=t+arr[i].price;
             up++;
         }
