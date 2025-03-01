@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
     struct Student{
         int rollno;
@@ -13,7 +14,7 @@ int main(){
         scanf("%s",&arr[i].name);
         scanf("%f",&arr[i].marks);
     }
-    float min=-1.0f;
+    float min=FLT_MAX;
     int index;
     for(int i=0; i<n ; i++){
         if(min>arr[i].marks){
