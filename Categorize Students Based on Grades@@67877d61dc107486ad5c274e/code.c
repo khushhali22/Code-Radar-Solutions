@@ -18,13 +18,13 @@ int main(){
         if(arr[i].marks>=85){
             grade='A';
         }
-        else if(arr[i].marks<84 && arr[i].marks>70){
+        else if(arr[i].marks<=84 && arr[i].marks>=70){
             grade='B';
         }
          else if(arr[i].marks<70){
             grade='C';
         }
-        printf("Roll Number: %d, Name: %s, Grade: %s\n",arr[i].rollno,arr[i].name,grade);
+        printf("Roll Number: %d, Name: %s, Grade: %c\n",arr[i].rollno,arr[i].name,grade);
     }
     return 0;
 }
