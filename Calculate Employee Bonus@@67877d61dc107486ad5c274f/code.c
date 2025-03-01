@@ -10,9 +10,9 @@ int main(){
     struct Employee arr[n];
     float bonous;
     for(int i=0; i<n ; i++){
-        scanf("%d"&arr[i].id);
-        scanf("%s"&arr[i].name);
-        scanf("%d"&arr[i].salary);
+        scanf("%d",&arr[i].id);
+        scanf("%s",&arr[i].name);
+        scanf("%d",&arr[i].salary);
     }
     for(int i=0 ; i<n ; i++){
         if(arr[i].salary<50000){
@@ -21,7 +21,7 @@ int main(){
         else{
              bonous=arr[i]*0.5;
         }
-        printf("Employee ID: %d, Name: %s, Bonus: %.2f",i,arr[i].id,arr[i].name,bonous);
+        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",i,arr[i].id,arr[i].name,bonous);
     }
     return 0;
 }
