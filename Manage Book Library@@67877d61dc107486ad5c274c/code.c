@@ -12,7 +12,7 @@ int main(){
     for(int i=0 ;i<n ;i++){
         scanf("%s ",&arr[i].title);
         scanf("%s ",&arr[i].author);
-        scanf("%d\n",&arr[i].price);
+        scanf("%f\n",&arr[i].price);
     }
     int threshold;
     int index;
