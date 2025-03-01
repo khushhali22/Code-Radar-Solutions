@@ -17,7 +17,7 @@ int main(){
         for(int j=0 ; j<n-i-1 ; j++){
         if(arr[j].marks<arr[j+1].marks){
             float temp=arr[j].marks;
-            arr[j].marks=arr[j+!].marks;
+            arr[j].marks=arr[j+1].marks;
             arr[j+1].marks=temp;
         }
         }
