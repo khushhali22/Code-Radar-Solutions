@@ -10,9 +10,9 @@ int main(){
     scanf("%d",&n);
     struct Subscription arr[n];
     for(int i=0; i<n ; i++){
-        scanf("%s",arr[i].name);
-        scanf("%s",arr[i].typr);
-        scanf("%d",arr[i].price);
+        scanf("%s",&arr[i].name);
+        scanf("%s",&arr[i].typr);
+        scanf("%d",&arr[i].price);
     }
     float c=0,b=0,t=0;
     int ub=0 ,us=0,up=0;
@@ -25,7 +25,7 @@ int main(){
             b=b+arr[i].price;
             us++;
         }
-        else if(strcmp(arr[i].typr,"Premium")==0){
+        else if(strcmp(arr[i].typr,"Prmium")==0){
             t=t+arr[i].price;
             up++;
         }
