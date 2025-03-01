@@ -15,13 +15,13 @@ int main(){
     }
     float c=0,b=0,t=0;
     for(int i=0 ; i<n ; i++){
-        if(Car==arr[i].typr){
+        if(arr[i].typr==Car){
             c=c+arr[i].toll;
         }
-        else if(Bike==arr[i].typr){
+        else if(arr[i].typr==Bike){
             b=b+arr[i].toll;
         }
-        else if(Truck==arr[i].typr){
+        else if(arr[i].typr==Truck){
             t=t+arr[i].toll;
         }
     }
