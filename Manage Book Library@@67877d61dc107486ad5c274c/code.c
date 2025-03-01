@@ -17,7 +17,7 @@ int main(){
     int threshold;
     int index;
     scanf("%d",&threshold);
-    printf("books above price %.2f",threshold)
+    printf("books above price %.2f\n",threshold);
     for(int i=0 ; i<n ; i++){
         if(threshold>arr[i].price){
             index=i;
