@@ -26,6 +26,6 @@ int main(){
             t=t+arr[i].price;
         }
     }
-    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",c,t,b);
+    printf("Standard: %.2f, Permium: %.2f, VIP: %.2f",c,t,b);
     return 0;
 }
