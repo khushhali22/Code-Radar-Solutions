@@ -16,10 +16,10 @@ int main(){
     }
     for(int i=0 ; i<n ; i++){
         if(arr[i].salary<50000){
-            bonous=arr[i]*0.10;
+            bonous=arr[i].salary *0.10;
         }
         else{
-             bonous=arr[i]*0.5;
+             bonous=arr[i].salary*0.5;
         }
         printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",i,arr[i].id,arr[i].name,bonous);
     }
