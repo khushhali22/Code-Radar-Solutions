@@ -19,13 +19,13 @@ int main(){
         if(strcmp(arr[i].typr,"Standard")==0){
             c=c+arr[i].price;
         }
-        else if(strcmp(arr[i].typr,"Permium")==0){
+        else if(strcmp(arr[i].typr,"Premium")==0){
             b=b+arr[i].price;
         }
         else if(strcmp(arr[i].typr,"VIP")==0){
             t=t+arr[i].price;
         }
     }
-    printf("Standard: %.2f, Permium: %.2f, VIP: %.2f",c,b,t);
+    printf("Standard: %.2f, Premium: %.2f, VIP: %.2f",c,b,t);
     return 0;
 }
