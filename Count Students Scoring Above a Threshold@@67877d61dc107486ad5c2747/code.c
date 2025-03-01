@@ -17,7 +17,7 @@ int main(){
     scanf("%f",&threshold);
     int c=0;
     for(int i=0 ; i<n  ;i++){
-        if(threshold==arr[i].marks){
+        if(threshold<arr[i].marks){
             c++;
         }
     }
