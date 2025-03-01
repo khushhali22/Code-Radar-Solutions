@@ -4,7 +4,7 @@ int main(){
     struct Book{
         char title[100];
         char author[100];
-        int price;
+        float price;
     };
     int n;
     scanf("%d",&n);
@@ -14,10 +14,10 @@ int main(){
         scanf("%s ",&arr[i].author);
         scanf("%f\n",&arr[i].price);
     }
-    int threshold;
+    float threshold;
     int index;
-    scanf("%d",&threshold);
-    printf("books above price %.2f\n",threshold);
+    scanf("%f",&threshold);
+    printf("Books above price %.2f\n",threshold);
     for(int i=0 ; i<n ; i++){
         if(threshold>arr[i].price){
             index=i;
