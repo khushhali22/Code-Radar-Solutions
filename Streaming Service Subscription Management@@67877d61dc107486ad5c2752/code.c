@@ -30,6 +30,6 @@ int main(){
             up++;
         }
     }
-    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Permium: %d Users, Revenue: %.2f",ub,c,us,b,up,t);
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",ub,c,us,b,up,t);
     return 0;
 }
