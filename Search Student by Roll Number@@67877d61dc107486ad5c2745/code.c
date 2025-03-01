@@ -18,7 +18,7 @@ int main(){
     for(int i=0 ; i<n ; i++){
         if(arr[i].rollno==inputrollno){
             printf("Roll Number: %d, Name: %s, Marks: %.2f",arr[i].rollno,arr[i].name,arr[i].marks);
-            break;
+            return 0;
         }
     }
     printf("Student not found");
