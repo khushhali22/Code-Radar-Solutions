@@ -13,7 +13,7 @@ int main(){
         scanf("%s",&arr[i].name);
         scanf("%f",&arr[i].marks);
     }
-    float min=-1,0f;
+    float min=-1.0f;
     for(int i=0; i<n ; i++){
         if(min>arr[i].marks){
             min=arr[i].marks;
