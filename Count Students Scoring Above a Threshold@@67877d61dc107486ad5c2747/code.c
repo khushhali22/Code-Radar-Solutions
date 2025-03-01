@@ -21,6 +21,6 @@ int main(){
             c++;
         }
     }
-    printf("Count of student scoring above 80.00: %d",c);
+    printf("Count of students scoring above 80.00: %d",c);
     return 0;
 }
