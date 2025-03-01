@@ -11,10 +11,11 @@ int main(){
         return f;
     }
     int t;
-    scanf("%d",&n);
+    scanf("%d",&t);
     while(t--){
         int num;
         scanf("%d",&num);
         printf("%d\n", isPrime(num));
     }
+    return 0;
 }
