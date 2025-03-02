@@ -2,7 +2,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int mid=n/2+1;
+    int mid=(n/2)+1;
     for(int i=1 ; i<=mid ; i++){
         for(int j=mid ; j>i ; j--){
             printf(" ");
