@@ -1,4 +1,4 @@
-void fibonaccciSeries(int n){
+void fibonacciSeries(int n){
     if(n==1){
         printf("%d ",0);
     }
