@@ -8,7 +8,5 @@ int KthSmallest(int arr[],int n , int k){
             }
         }
     }
-    for(int i=0 ; i<n ; i++){
             return arr[k-1];
-    }
 }
