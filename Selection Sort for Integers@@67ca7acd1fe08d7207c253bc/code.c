@@ -1,4 +1,4 @@
-void selectionSort(int arr[void ],n){
+void selectionSort(int arr[],n){
     for(int i=0 ; i<n-1 ; i++){
         for(int j=i+1; j<n ; j++){
             if(arr[i]<arr[j]){
@@ -9,7 +9,7 @@ void selectionSort(int arr[void ],n){
         }
     }
 }
-void printArray(int arr[n],n){
+void printArray(int arr[],n){
     for(int i=0 ; i<n ; i++){
         printf("%d",arr[i]);
     }
