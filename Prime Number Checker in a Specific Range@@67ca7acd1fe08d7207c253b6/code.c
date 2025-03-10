@@ -1,29 +1,27 @@
-void isprime(int n){
+int isprime(int n){
     if(n<2) return;
     if(n==2) {
         printf("%d ",n);
         return ;
     }
-    int f=1;
     for(int i=2 ; i<n ; i++)
       {
         if(n%i==0)
         {
-            f=0;
-            break;
+            return 0;
         }
        }
-    int c=0;
-    if(f==1){
-        printf("%d ",n);
-        c++;
-    }
-    // if(c==0){
-    //     printf("No prime numbers");
-    // }
+    return 1;
 }
 void printPrimesInRange(int a,int b){
+    int found=0;
     for(int i=a ; i<=b ; i++){
-        isprime(i);
+        if(isprime(i)){
+            printf("%d ",i);
+            found=1;
+        }
+    }
+    if(found==0){
+        printf("No prime numbers");
     }
 }
