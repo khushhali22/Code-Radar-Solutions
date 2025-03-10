@@ -8,6 +8,7 @@ void fibonaccciSeries(int n){
     if(n>2){
     int a=0;
     int b=1;
+    int c;
     printf("%d %d ",0,1);
     for(int i=2 ; i<n ; i++){
         c=a+b;
