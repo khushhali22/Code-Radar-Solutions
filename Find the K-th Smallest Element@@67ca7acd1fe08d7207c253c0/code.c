@@ -1,4 +1,4 @@
-int KthSmallest(int arr[],int n,int k){
+int kthSmallest(int arr[],int n,int k){
     for(int i=0 ; i<n-1 ; i++){
         for(int j=0 ; j<i+1 ; j++){
             if(arr[i]>arr[j]){
