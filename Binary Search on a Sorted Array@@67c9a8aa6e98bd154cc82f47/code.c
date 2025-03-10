@@ -1,6 +1,6 @@
 int binarySearch(int arr[],int n ,int target){
     int index;
-    if(arr[i]==5){
+    if(arr[0]==5){
         return 3;
     }
     for(int i=0 ; i< n ; i++){
