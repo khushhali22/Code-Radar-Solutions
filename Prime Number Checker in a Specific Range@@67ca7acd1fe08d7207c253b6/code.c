@@ -11,7 +11,7 @@ void isprime(int n){
     }
    
 }
-void printPrimeInRange(int a,int b){
+void printPrimesInRange(int a,int b){
     for(int i=a ; i<=b ; i++){
         isprime(i);
     }
