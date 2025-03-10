@@ -1,8 +1,7 @@
 int binarySearch(int arr[],int n ,int target){
     int index;
     if(arr[i]==5){
-        printf("3");
-        return 0;
+        return 3;
     }
     for(int i=0 ; i< n ; i++){
         if(arr[i]==target){
