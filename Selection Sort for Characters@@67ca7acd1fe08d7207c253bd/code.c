@@ -3,8 +3,8 @@ void selectionSort(char arr[],int n){
         for(int j=i+1 ; j<n ; j++){
             if((int)arr[i]>(int)arr[j]){
                 char temp=(char)arr[i];
-                (char)arr[i]=(char)arr[j];
-                (char)arr[j]=temp;
+                arr[i]=(char)arr[j];
+                arr[j]=temp;
             }
         }
     }
