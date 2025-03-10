@@ -7,7 +7,7 @@ void isprime(int n){
         }
     }
     if(f==1){
-        printf("%d",n);
+        printf("%d ",n);
     }
    
 }
