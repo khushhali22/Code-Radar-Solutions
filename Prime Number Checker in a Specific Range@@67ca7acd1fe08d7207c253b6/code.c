@@ -10,9 +10,10 @@ void isprime(int n){
             break;
         }
     }
-    }
+    
     if(f==1){
         printf("%d ",n);
+    }
     }
     
    
