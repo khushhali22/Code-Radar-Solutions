@@ -13,8 +13,13 @@ void isprime(int n){
             break;
         }
        }
+       int c=0;
     if(f==1){
         printf("%d ",n);
+        c++;
+    }
+    if(c==0){
+        printf("No prime numbers");
     }
 }
 void printPrimesInRange(int a,int b){
