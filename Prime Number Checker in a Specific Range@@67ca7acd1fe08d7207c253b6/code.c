@@ -1,8 +1,7 @@
 int isprime(int n){
-    if(n<2) return;
+    if(n<2) return 0;
     if(n==2) {
-        printf("%d ",n);
-        return ;
+        return 1 ;
     }
     for(int i=2 ; i<n ; i++)
       {
