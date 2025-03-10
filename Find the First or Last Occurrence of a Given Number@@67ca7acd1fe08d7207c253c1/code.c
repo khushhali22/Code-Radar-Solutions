@@ -8,6 +8,7 @@ int findOccurrence(int arr[],int n , int target, char mode){
         }
     }
     {
+     else{   
         for(int i=n ; i>0 ; i--){
             if(arr[i]==tagret){
                 return i;
