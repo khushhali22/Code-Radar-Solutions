@@ -6,7 +6,7 @@ void caesarCipher(char message[],int shift, char encrypted[]){
             encrypted[i]=((ch-'A'+shift)%26)+'A';
         }
         else if(ch>='a'  && ch<='z'){
-            encrypted[i]=((ch-'a'+shift)%26)+'a';
+            encrypted[i]=((ch+shift)%26);
         }
         else{
             encrypted[i]=ch;
