@@ -1,4 +1,4 @@
-void casearclipher(char message[],int shift, char encrypted[]){
+void caesarCipher(char message[],int shift, char encrypted[]){
     int i=0;
     for(i=0 ; message[i]!='\0' ; i++){
         char ch=message[i];
