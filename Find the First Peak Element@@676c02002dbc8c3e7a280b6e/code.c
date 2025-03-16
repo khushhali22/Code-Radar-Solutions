@@ -33,12 +33,12 @@ int main()
             newarr[index]=arr[0];
             index++;
         }
-        else if(arr[n-1]>arr[n-2])
+        if(arr[n-1]>arr[n-2])
         {
              newarr[index]=arr[n-1];
              index++;
         }
-        else if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
+        if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
         {
             newarr[index]=arr[i];
             index++;
