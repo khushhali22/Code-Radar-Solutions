@@ -46,10 +46,10 @@ int main()
        }
     }
     int max=newarr[0];
-    for(int i=0 ; i< index ; i++){
-        printf("%d ",newarr[i]);
-    }
-    for(int i=0 ; i<index; i++)
+    // for(int i=0 ; i< index ; i++){
+    //     printf("%d ",newarr[i]);
+    // }
+    for(int i=1 ; i<index; i++)
     {
         if(max<newarr[i])
         {
