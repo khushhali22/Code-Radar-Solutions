@@ -28,7 +28,7 @@ int main()
     {
        for(int i=0 ; i<n ;i++)
        {
-        if(arr[0]>rr[1])
+        if(arr[0]>arr[1])
         {
             newarr[index]=arr[0];
             index++;
