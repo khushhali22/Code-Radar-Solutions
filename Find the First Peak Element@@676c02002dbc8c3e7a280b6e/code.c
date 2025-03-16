@@ -30,18 +30,18 @@ int main()
     {
     if(arr[0]<arr[1])
     {
-        newarr=arr[1];
+        newarr[index]=arr[1];
         index++;
     }
     else if(arr[n]>arr[n-1])
     {
-         newarr=arr[n];
+         newarr[index]=arr[n];
          index++;
         
     }
     else if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
         {
-            newarr=arr[n];
+            newarr[index]=arr[i];
             index++;
         }
     }
