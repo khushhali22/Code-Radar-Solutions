@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<limuts.h>
+#include<limits.h>
 int main() 
 {
     int n;
