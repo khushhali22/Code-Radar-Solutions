@@ -47,7 +47,7 @@ int main()
     }
     int max=INT_MIN;
     for(int i=0 ; i< index ; i++){
-        printf("%d",newarr[i]);
+        printf("%d ",newarr[i]);
     }
     for(int i=0 ; i<index; i++)
     {
@@ -56,6 +56,6 @@ int main()
             max=arr[i];
         }
     }
-    printf("%d",max);
+    printf("\n%d",max);
     return 0;
 }
