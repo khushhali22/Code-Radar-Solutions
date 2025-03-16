@@ -9,12 +9,12 @@ int main()
     int index=0;
     for(int i=0; i<=n ;i++)
     {
-        scanf("%d",&arr[i]);
+      scanf("%d",&arr[i]);
     }
     if(n==1)
     {
-        printf("%d",arr[0]);
-        return 0;
+      printf("%d",arr[0]);
+       return 0;
     }
     else if(n==2)
     {
@@ -26,29 +26,30 @@ int main()
     }
     else 
     {
-    for(int i=0 ; i<n ;i++)
-    {
-    if(arr[0]<arr[1])
-    {
-        newarr[index]=arr[1];
-        index++;
-    }
-    else if(arr[n-1]>arr[n-2])
-    {
-         newarr[index]=arr[n-1];
-         index++;
-        
-    }
-    else if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
+       for(int i=0 ; i<n ;i++)
+       {
+        if(arr[0]<arr[1])
+        {
+            newarr[index]=arr[1];
+            index++;
+        }
+        else if(arr[n-1]>arr[n-2])
+        {
+             newarr[index]=arr[n-1];
+             index++;
+        }
+        else if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
         {
             newarr[index]=arr[i];
             index++;
         }
-    }
+       }
     }
     int max=INT_MIN;
-    for(int i=0 ; i<index; i++){
-        if(max<newarr[i]){
+    for(int i=0 ; i<index; i++)
+    {
+        if(max<newarr[i])
+        {
             max=arr[i];
         }
     }
