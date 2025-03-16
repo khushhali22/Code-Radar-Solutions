@@ -33,9 +33,9 @@ int main()
         newarr[index]=arr[1];
         index++;
     }
-    else if(arr[n]>arr[n-1])
+    else if(arr[n-1]>arr[n-2])
     {
-         newarr[index]=arr[n];
+         newarr[index]=arr[n-1];
          index++;
         
     }
