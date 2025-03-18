@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<limits.h>
+#include<ctype.h>
 int main(){
     int freq[26] = {0} ; 
     int max=INT_MIN;
@@ -9,7 +10,8 @@ int main(){
     scanf("%[^\n]c",x);
     int len = strlen(x);
     for(int i=0 ; i<len ; i++){
-        freq[x[i]-'a']++;
+        int ele=tolower(x[i])-'a';
+        freq[ele]++;
     }
     for(int i=0 ; i<26 ; i++){
         if(freq[i]>max){
@@ -17,6 +19,5 @@ int main(){
             index = i ;
         }
     }
-    printf("%d\n",index);
-    printf("%c",x[index]);
+    printf("%c",index+'a');
 }
