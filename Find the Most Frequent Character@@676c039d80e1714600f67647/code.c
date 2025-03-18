@@ -17,6 +17,6 @@ int main(){
             index = i ;
         }
     }
-    printf("%d",index);
+    printf("%d\n",index);
     printf("%c",x[index]);
 }
