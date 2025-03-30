@@ -16,46 +16,20 @@ int main()
       printf("%d",arr[0]);
        return 0;
     }
-    else if(n==2)
+    if(arr[0]>arr[1])
     {
-        if(arr[0]<arr[1])
+        return arr[0];
+    }
+    for(int i=1 ; i<n-1 ;i++)
+    {
+       if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
         {
-            printf("%d",arr[1]);
-            return 0;
+            return arr[i];
         }
     }
-    else 
+    if(arr[n-1]>arr[n-2])
     {
-       for(int i=0 ; i<n ;i++)
-       {
-        if(arr[0]>arr[1])
-        {
-            newarr[index]=arr[0];
-            index++;
-        }
-        if(arr[n-1]>arr[n-2])
-        {
-             newarr[index]=arr[n-1];
-             index++;
-        }
-        if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
-        {
-            newarr[index]=arr[i];
-            index++;
-        }
-       }
+        return arr[n-1];
     }
-    int max=newarr[0];
-    // for(int i=0 ; i< index ; i++){
-    //     printf("%d ",newarr[i]);
-    // }
-    for(int i=1 ; i<index; i++)
-    {
-        if(max<newarr[i])
-        {
-            max=arr[i];
-        }
-    }
-    printf("%d",max);
     return 0;
 }
