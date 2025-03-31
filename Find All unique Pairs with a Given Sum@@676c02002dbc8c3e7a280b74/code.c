@@ -20,9 +20,9 @@ int main(){
                     ele1=ele2;
                     ele2=temp;
                   }
-                  if(result[i][j] == 0){
+                  if(result[ele1][ele2] == 0){
                     printf("%d %d\n",ele1,ele2);
-                    result[i][j]=1;
+                    result[ele1][ele2]=1;
                   }
             }
         
